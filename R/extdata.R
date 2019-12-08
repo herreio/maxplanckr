@@ -1,15 +1,19 @@
+#' @export
 get_dp_graph <- function() {
   system.file("extdata/prepared/graph", package="maxplanckr")
 }
 
+#' @export
 get_dp_tables <- function() {
   system.file("extdata/prepared/tables", package="maxplanckr")
 }
 
+#' @export
 get_dp_titles <- function() {
   system.file("extdata/prepared/titles", package="maxplanckr")
 }
 
+#' @export
 get_pc_graph <- function() {
   dp_graph <- get_dp_graph()
   data.frame(
@@ -65,6 +69,7 @@ get_pc_graph <- function() {
   )
 }
 
+#' @export
 get_pc_tables <- function() {
   dp_tables <- get_dp_tables()
   data.frame(
@@ -80,6 +85,7 @@ get_pc_tables <- function() {
   )
 }
 
+#' @export
 get_pc_titles <- function() {
   dp_titles <- get_dp_titles()
   data.frame(

@@ -1,7 +1,6 @@
-# -------------- #
-# -- CSV I/O -- #
-# ------------ #
-
+#' Read csv function
+#'
+#' @export
 read_csv <- function(fp) {
   csv <- read.csv(fp,
                   sep = ",",
@@ -12,6 +11,9 @@ read_csv <- function(fp) {
   return(csv)
 }
 
+#' Read csv as tibble function
+#'
+#' @export
 read_data <- function(fp) {
   csv <- read_csv(fp)
   dplyr::as_tibble(csv)
