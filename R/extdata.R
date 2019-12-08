@@ -36,7 +36,7 @@ get_pc_graph <- function() {
     "items_edges_src_ext" = file.path(dp_graph, "items--src-ext-edges.csv"),
     "items_edges_src_ext_ous" = file.path(dp_graph, "items--src-ext-ous-edges.csv"),
     "items_edges_src_ous" = file.path(dp_graph, "items--src-ous-edges.csv"),
-    "items_edges_src_pers_ous" = file.path(dp_graph, "items--src-pers-edges.csv"),
+    "items_edges_src_pers" = file.path(dp_graph, "items--src-pers-edges.csv"),
     "items_edges_src_pers_ous" = file.path(dp_graph, "items--src-pers-ous-edges.csv"),
     "mpis_nodes_ous" = file.path(dp_graph, "mpis--ous_nodes.csv"),
     "mpis_nodes_cats" = file.path(dp_graph, "mpis--cats_nodes.csv"),
