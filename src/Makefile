@@ -1,0 +1,2 @@
+deps:
+	../exec/python

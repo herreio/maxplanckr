@@ -1,0 +1,22 @@
+Package: maxplanckr
+Title: Publication Data From the Max Planck Society
+Version: 0.0.1
+Authors@R: person("Donatus", "Herre", email = "mai@herre.io", role = c("aut", "cre"))
+Description: This package provides publication data from MPG.PuRe.
+Depends: R (>= 3.6.1)
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr,
+    readr,
+    reticulate,
+    slam,
+    tm
+RoxygenNote: 7.0.2
+SystemRequirements: Python3, virtualenv, Firefox, Geckodriver
+Collate: 
+    'extdata.R'
+    'filter.R'
+    'pyimp.R'
+    'utils.R'

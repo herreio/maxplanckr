@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+echo ""
+echo "    start mapping precudure..."
+echo ""
+WD=$(dirname "$0")
+PY_DIR=$WD"/../inst/python"
+cd $PY_DIR
+source env/bin/activate
+python -m crawl.map_mpis_deu
+python -m crawl.map_mpis_eng
+python -m crawl.map_mpis
+deactivate
+echo ""
+echo "    all done!"
+echo ""

@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+echo ""
+echo "    fetch external data..."
+echo ""
+WD=$(dirname "$0")
+PY_DIR=$WD"/../inst/python"
+cd $PY_DIR
+source env/bin/activate
+python -m retrieve
+deactivate
+echo ""
+echo "    all done!"
+echo ""

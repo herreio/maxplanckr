@@ -1,0 +1,233 @@
+{
+  "data": {
+    "context": {
+      "creationDate": "",
+      "creator": {
+        "objectId": ""
+      },
+      "lastModificationDate": "",
+      "modifier": {
+        "objectId": ""
+      },
+      "name": "",
+      "objectId": ""
+    },
+    "creationDate": "",
+    "creator": {
+      "objectId": ""
+    },
+    "files": {
+      "checksum": "",
+      "checksumAlgorithm": "",
+      "content": "",
+      "creationDate": "",
+      "creator": {
+        "objectId": ""
+      },
+      "metadata": {
+        "contentCategory": "",
+        "formats": {
+          "type": "",
+          "value": ""
+        },
+        "size": "",
+        "title": "",
+        "description": "",
+        "rights": "",
+        "embargoUntil": "",
+        "copyrightDate": "",
+        "license": ""
+      },
+      "mimeType": "",
+      "name": "",
+      "objectId": "",
+      "pid": "",
+      "size": "",
+      "storage": "",
+      "visibility": "",
+      "lastModificationDate": ""
+    },
+    "lastModificationDate": "",
+    "latestRelease": {
+      "modificationDate": "",
+      "modifier": {
+        "objectId": ""
+      },
+      "objectId": "",
+      "versionNumber": "",
+      "versionPid": "",
+      "versionState": ""
+    },
+    "latestVersion": {
+      "modificationDate": "",
+      "modifier": {
+        "objectId": ""
+      },
+      "objectId": "",
+      "versionNumber": "",
+      "versionPid": "",
+      "versionState": ""
+    },
+    "localTags": "",
+    "metadata": {
+      "creators": {
+        "person": {
+          "familyName": "",
+          "givenName": "",
+          "identifier": {
+            "id": "",
+            "type": ""
+          },
+          "organizations": {
+            "identifier": "",
+            "identifierPath": "",
+            "name": "",
+            "address": ""
+          },
+          "completeName": ""
+        },
+        "role": "",
+        "type": "",
+        "organization": {
+          "identifier": "",
+          "identifierPath": "",
+          "name": "",
+          "address": ""
+        }
+      },
+      "datePublishedInPrint": "",
+      "genre": "",
+      "identifiers": {
+        "id": "",
+        "type": ""
+      },
+      "languages": "",
+      "sources": {
+        "genre": "",
+        "title": "",
+        "volume": "",
+        "issue": "",
+        "endPage": "",
+        "startPage": "",
+        "creators": {
+          "person": {
+            "familyName": "",
+            "givenName": "",
+            "identifier": {
+              "id": "",
+              "type": ""
+            },
+            "organizations": {
+              "identifier": "",
+              "identifierPath": "",
+              "name": "",
+              "address": ""
+            },
+            "completeName": ""
+          },
+          "role": "",
+          "type": "",
+          "organization": {
+            "identifier": "",
+            "identifierPath": "",
+            "name": ""
+          }
+        },
+        "identifiers": {
+          "id": "",
+          "type": ""
+        },
+        "publishingInfo": {
+          "place": "",
+          "publisher": "",
+          "edition": ""
+        },
+        "alternativeTitles": {
+          "value": "",
+          "type": ""
+        },
+        "sequenceNumber": "",
+        "totalNumberOfPages": ""
+      },
+      "title": "",
+      "totalNumberOfPages": "",
+      "subjects": {
+        "type": "",
+        "value": ""
+      },
+      "publishingInfo": {
+        "place": "",
+        "publisher": "",
+        "edition": ""
+      },
+      "event": {
+        "endDate": "",
+        "place": "",
+        "startDate": "",
+        "title": "",
+        "invitationStatus": "",
+        "alternativeTitles": {
+          "value": ""
+        }
+      },
+      "dateAccepted": "",
+      "dateCreated": "",
+      "datePublishedOnline": "",
+      "abstracts": {
+        "value": "",
+        "language": ""
+      },
+      "degree": "",
+      "freeKeywords": "",
+      "tableOfContents": "",
+      "alternativeTitles": {
+        "value": "",
+        "type": ""
+      },
+      "reviewMethod": "",
+      "dateModified": "",
+      "projectInfo": {
+        "fundingInfo": {
+          "fundingOrganization": {
+            "identifiers": {
+              "id": "",
+              "type": ""
+            },
+            "title": ""
+          },
+          "fundingProgram": {
+            "identifiers": {
+              "id": "",
+              "type": ""
+            },
+            "title": ""
+          }
+        },
+        "grantIdentifier": {
+          "id": "",
+          "type": ""
+        },
+        "title": ""
+      },
+      "dateSubmitted": "",
+      "legalCase": {
+        "courtName": "",
+        "datePublished": "",
+        "identifier": "",
+        "title": ""
+      }
+    },
+    "modificationDate": "",
+    "modifier": {
+      "objectId": ""
+    },
+    "objectId": "",
+    "objectPid": "",
+    "publicState": "",
+    "versionNumber": "",
+    "versionPid": "",
+    "versionState": "",
+    "message": ""
+  },
+  "persistenceId": ""
+}

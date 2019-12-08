@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+echo ""
+echo "    start post mapping precudure..."
+echo ""
+WD=$(dirname "$0")
+PY_DIR=$WD"/../inst/python"
+cd $PY_DIR
+cp ../extdata/collection/mpis/map/mpi_ous.json ../extdata/collection/mpis/map/mpi_ous-raw.json
+cp ../extdata/institutes.json ../extdata/collection/mpis/map/mpi_ous.json
+source env/bin/activate
+python -m crawl.map_post
+deactivate
+echo ""
+echo "    all done!"
+echo ""

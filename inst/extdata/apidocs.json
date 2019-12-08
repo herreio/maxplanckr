@@ -1,0 +1,4409 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "This is an automatically generated REST API client for PubMan.",
+    "title": "PubMan REST API"
+  },
+  "host": "pure.mpg.de",
+  "basePath": "/rest",
+  "tags": [
+    {
+      "name": "Atom Feeds",
+      "description": "Feed Rest Controller"
+    },
+    {
+      "name": "Contexts",
+      "description": "Context Rest Controller"
+    },
+    {
+      "name": "Items / Publications",
+      "description": "Item Rest Controller"
+    },
+    {
+      "name": "Login / Logout",
+      "description": "Login Rest Controller"
+    },
+    {
+      "name": "Organizations",
+      "description": "Organization Rest Controller"
+    },
+    {
+      "name": "Upload Files / Staging",
+      "description": "Staging File Rest Controller"
+    },
+    {
+      "name": "User Accounts",
+      "description": "User Account Rest Controller"
+    },
+    {
+      "name": "Yearbooks",
+      "description": "Yearbook Rest Controller"
+    }
+  ],
+  "paths": {
+    "/contexts": {
+      "get": {
+        "tags": [
+          "Contexts"
+        ],
+        "summary": "getAll",
+        "operationId": "getAllUsingGET",
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "from",
+            "in": "query",
+            "description": "from",
+            "required": false,
+            "type": "integer",
+            "default": 0,
+            "format": "int32"
+          },
+          {
+            "name": "size",
+            "in": "query",
+            "description": "size",
+            "required": false,
+            "type": "integer",
+            "default": 10,
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/SearchRetrieveResponseVO\u00abContextDbVO\u00bb"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Contexts"
+        ],
+        "summary": "create",
+        "operationId": "createUsingPOST",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "ctx",
+            "description": "ctx",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/ContextDbVO"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/ContextDbVO"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/contexts/{ctxId}": {
+      "get": {
+        "tags": [
+          "Contexts"
+        ],
+        "summary": "get",
+        "operationId": "getUsingGET",
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "ctxId",
+            "in": "path",
+            "description": "ctxId",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Contexts"
+        ],
+        "summary": "update",
+        "operationId": "updateUsingPUT",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "ctx",
+            "description": "ctx",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/ContextDbVO"
+            }
+          },
+          {
+            "name": "ctxId",
+            "in": "path",
+            "description": "ctxId",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/ContextDbVO"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Contexts"
+        ],
+        "summary": "delete",
+        "operationId": "deleteUsingDELETE",
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "ctxId",
+            "in": "path",
+            "description": "ctxId",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object"
+            }
+          },
+          "204": {
+            "description": "No Content"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          }
+        }
+      }
+    },
+    "/contexts/{ctxId}/close": {
+      "put": {
+        "tags": [
+          "Contexts"
+        ],
+        "summary": "close",
+        "operationId": "closeUsingPUT",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "ctxId",
+            "in": "path",
+            "description": "ctxId",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "modificatioDate",
+            "description": "modificatioDate",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/ContextDbVO"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/contexts/{ctxId}/open": {
+      "put": {
+        "tags": [
+          "Contexts"
+        ],
+        "summary": "open",
+        "operationId": "openUsingPUT",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "ctxId",
+            "in": "path",
+            "description": "ctxId",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "modificatioDate",
+            "description": "modificatioDate",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/ContextDbVO"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/feed/oa": {
+      "get": {
+        "tags": [
+          "Atom Feeds"
+        ],
+        "summary": "getRecentOa",
+        "operationId": "getRecentOaUsingGET",
+        "produces": [
+          "application/atom+xml;charset=UTF-8"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "string"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/feed/organization/{ouId}": {
+      "get": {
+        "tags": [
+          "Atom Feeds"
+        ],
+        "summary": "getRecentReleasesforOu",
+        "operationId": "getRecentReleasesforOuUsingGET",
+        "produces": [
+          "application/atom+xml;charset=UTF-8"
+        ],
+        "parameters": [
+          {
+            "name": "ouId",
+            "in": "path",
+            "description": "ouId",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "string"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/feed/recent": {
+      "get": {
+        "tags": [
+          "Atom Feeds"
+        ],
+        "summary": "getRecentReleases",
+        "operationId": "getRecentReleasesUsingGET",
+        "produces": [
+          "application/atom+xml;charset=UTF-8"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "string"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/feed/search": {
+      "get": {
+        "tags": [
+          "Atom Feeds"
+        ],
+        "summary": "getSearchAsFeed",
+        "operationId": "getSearchAsFeedUsingGET",
+        "produces": [
+          "application/atom+xml;charset=UTF-8"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "description": "q",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "string"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/items": {
+      "post": {
+        "tags": [
+          "Items / Publications"
+        ],
+        "summary": "create",
+        "operationId": "createUsingPOST_1",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "item",
+            "description": "item",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/ItemVersionVO"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/ItemVersionVO"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/items/search": {
+      "post": {
+        "tags": [
+          "Items / Publications"
+        ],
+        "summary": "search",
+        "operationId": "searchUsingPOST",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "citation",
+            "in": "query",
+            "description": "citation",
+            "required": false,
+            "type": "string",
+            "default": "APA",
+            "allowEmptyValue": false,
+            "enum": [
+              "APA",
+              "APA(CJK)",
+              "AJP",
+              "JUS",
+              "CSL"
+            ]
+          },
+          {
+            "name": "cslConeId",
+            "in": "query",
+            "description": "cslConeId",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "format",
+            "in": "query",
+            "description": "format",
+            "required": false,
+            "type": "string",
+            "default": "json",
+            "allowEmptyValue": false,
+            "enum": [
+              "json",
+              "eSciDoc_Itemlist_Xml",
+              "BibTeX",
+              "EndNote",
+              "Marc_Xml",
+              "pdf",
+              "docx",
+              "html_plain",
+              "html_linked",
+              "json_citation",
+              "escidoc_snippet"
+            ]
+          },
+          {
+            "in": "body",
+            "name": "query",
+            "description": "query",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/JsonNode"
+            }
+          },
+          {
+            "name": "scroll",
+            "in": "query",
+            "description": "scroll",
+            "required": false,
+            "type": "boolean"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/SearchRetrieveResponseVO\u00abItemVersionVO\u00bb"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/items/search/scroll": {
+      "get": {
+        "tags": [
+          "Items / Publications"
+        ],
+        "summary": "searchScroll",
+        "operationId": "searchScrollUsingGET",
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "citation",
+            "in": "query",
+            "description": "citation",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "cslConeId",
+            "in": "query",
+            "description": "cslConeId",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "format",
+            "in": "query",
+            "description": "format",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "scrollId",
+            "in": "query",
+            "description": "scrollId",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/SearchRetrieveResponseVO\u00abItemVersionVO\u00bb"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/items/{itemId}": {
+      "get": {
+        "tags": [
+          "Items / Publications"
+        ],
+        "summary": "get",
+        "operationId": "getUsingGET_1",
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "itemId",
+            "in": "path",
+            "description": "itemId",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/ItemVersionVO"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Items / Publications"
+        ],
+        "summary": "update",
+        "operationId": "updateUsingPUT_1",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "item",
+            "description": "item",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/ItemVersionVO"
+            }
+          },
+          {
+            "name": "itemId",
+            "in": "path",
+            "description": "itemId",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/ItemVersionVO"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Items / Publications"
+        ],
+        "summary": "delete",
+        "operationId": "deleteUsingDELETE_1",
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "itemId",
+            "in": "path",
+            "description": "itemId",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "params",
+            "description": "params",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/TaskParamVO"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object"
+            }
+          },
+          "204": {
+            "description": "No Content"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          }
+        }
+      }
+    },
+    "/items/{itemId}/component/{componentId}/content": {
+      "get": {
+        "tags": [
+          "Items / Publications"
+        ],
+        "summary": "getComponentContent",
+        "operationId": "getComponentContentUsingGET",
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "componentId",
+            "in": "path",
+            "description": "componentId",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "download",
+            "in": "query",
+            "description": "download",
+            "required": false,
+            "type": "boolean",
+            "default": false
+          },
+          {
+            "name": "itemId",
+            "in": "path",
+            "description": "itemId",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/items/{itemId}/component/{componentId}/metadata": {
+      "get": {
+        "tags": [
+          "Items / Publications"
+        ],
+        "summary": "getTechnicalMetadataByTika",
+        "operationId": "getTechnicalMetadataByTikaUsingGET",
+        "produces": [
+          "text/plain"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "componentId",
+            "in": "path",
+            "description": "componentId",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "itemId",
+            "in": "path",
+            "description": "itemId",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "string"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/items/{itemId}/history": {
+      "get": {
+        "tags": [
+          "Items / Publications"
+        ],
+        "summary": "getVersionHistory",
+        "operationId": "getVersionHistoryUsingGET",
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "itemId",
+            "in": "path",
+            "description": "itemId",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/AuditDbVO"
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/items/{itemId}/release": {
+      "put": {
+        "tags": [
+          "Items / Publications"
+        ],
+        "summary": "release",
+        "operationId": "releaseUsingPUT",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "itemId",
+            "in": "path",
+            "description": "itemId",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "params",
+            "description": "params",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/TaskParamVO"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/ItemVersionVO"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/items/{itemId}/revise": {
+      "put": {
+        "tags": [
+          "Items / Publications"
+        ],
+        "summary": "revise",
+        "operationId": "reviseUsingPUT",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "itemId",
+            "in": "path",
+            "description": "itemId",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "params",
+            "description": "params",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/TaskParamVO"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/ItemVersionVO"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/items/{itemId}/submit": {
+      "put": {
+        "tags": [
+          "Items / Publications"
+        ],
+        "summary": "submit",
+        "operationId": "submitUsingPUT",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "itemId",
+            "in": "path",
+            "description": "itemId",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "params",
+            "description": "params",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/TaskParamVO"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/ItemVersionVO"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/items/{itemId}/withdraw": {
+      "put": {
+        "tags": [
+          "Items / Publications"
+        ],
+        "summary": "withdraw",
+        "operationId": "withdrawUsingPUT",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "itemId",
+            "in": "path",
+            "description": "itemId",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "params",
+            "description": "params",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/TaskParamVO"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/ItemVersionVO"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/login": {
+      "post": {
+        "tags": [
+          "Login / Logout"
+        ],
+        "summary": "login",
+        "operationId": "loginUsingPOST",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "credentials",
+            "description": "credentials",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/login/who": {
+      "get": {
+        "tags": [
+          "Login / Logout"
+        ],
+        "summary": "getUser",
+        "operationId": "getUserUsingGET",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/AccountUserDbVO"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/logout": {
+      "get": {
+        "tags": [
+          "Login / Logout"
+        ],
+        "summary": "logout",
+        "operationId": "logoutUsingGET",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "string"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/ous": {
+      "get": {
+        "tags": [
+          "Organizations"
+        ],
+        "summary": "getAll",
+        "operationId": "getAllUsingGET_1",
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "from",
+            "in": "query",
+            "description": "from",
+            "required": false,
+            "type": "integer",
+            "default": 0,
+            "format": "int32"
+          },
+          {
+            "name": "size",
+            "in": "query",
+            "description": "size",
+            "required": false,
+            "type": "integer",
+            "default": 10,
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/SearchRetrieveResponseVO\u00abAffiliationDbVO\u00bb"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Organizations"
+        ],
+        "summary": "create",
+        "operationId": "createUsingPOST_2",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "ou",
+            "description": "ou",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/AffiliationDbVO"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/AffiliationDbVO"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/ous/search": {
+      "post": {
+        "tags": [
+          "Organizations"
+        ],
+        "summary": "query",
+        "operationId": "queryUsingPOST",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "query",
+            "description": "query",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/JsonNode"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/SearchRetrieveResponseVO\u00abAffiliationDbVO\u00bb"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/ous/toplevel": {
+      "get": {
+        "tags": [
+          "Organizations"
+        ],
+        "summary": "topLevel",
+        "operationId": "topLevelUsingGET",
+        "produces": [
+          "*/*"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/AffiliationDbVO"
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/ous/{ouId}": {
+      "get": {
+        "tags": [
+          "Organizations"
+        ],
+        "summary": "get",
+        "operationId": "getUsingGET_2",
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "ouId",
+            "in": "path",
+            "description": "ouId",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/AffiliationDbVO"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Organizations"
+        ],
+        "summary": "update",
+        "operationId": "updateUsingPUT_2",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "ou",
+            "description": "ou",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/AffiliationDbVO"
+            }
+          },
+          {
+            "name": "ouId",
+            "in": "path",
+            "description": "ouId",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/AffiliationDbVO"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Organizations"
+        ],
+        "summary": "delete",
+        "operationId": "deleteUsingDELETE_2",
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "ouId",
+            "in": "path",
+            "description": "ouId",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object"
+            }
+          },
+          "204": {
+            "description": "No Content"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          }
+        }
+      }
+    },
+    "/ous/{ouId}/children": {
+      "get": {
+        "tags": [
+          "Organizations"
+        ],
+        "summary": "childOrganizations",
+        "operationId": "childOrganizationsUsingGET",
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "ouId",
+            "in": "path",
+            "description": "ouId",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/AffiliationDbVO"
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/ous/{ouId}/close": {
+      "put": {
+        "tags": [
+          "Organizations"
+        ],
+        "summary": "close",
+        "operationId": "closeUsingPUT_1",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "modificationDate",
+            "description": "modificationDate",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ouId",
+            "in": "path",
+            "description": "ouId",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/AffiliationDbVO"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/ous/{ouId}/open": {
+      "put": {
+        "tags": [
+          "Organizations"
+        ],
+        "summary": "open",
+        "operationId": "openUsingPUT_1",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "modificationDate",
+            "description": "modificationDate",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ouId",
+            "in": "path",
+            "description": "ouId",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/AffiliationDbVO"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/staging/{componentName}": {
+      "post": {
+        "tags": [
+          "Upload Files / Staging"
+        ],
+        "summary": "createStageComponent",
+        "operationId": "createStageComponentUsingPOST",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "componentName",
+            "in": "path",
+            "description": "componentName",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created",
+            "schema": {
+              "type": "string"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/users": {
+      "get": {
+        "tags": [
+          "User Accounts"
+        ],
+        "summary": "getAll",
+        "operationId": "getAllUsingGET_2",
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "from",
+            "in": "query",
+            "description": "from",
+            "required": false,
+            "type": "integer",
+            "default": 0,
+            "format": "int32"
+          },
+          {
+            "name": "size",
+            "in": "query",
+            "description": "size",
+            "required": false,
+            "type": "integer",
+            "default": 10,
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/SearchRetrieveResponseVO\u00abAccountUserDbVO\u00bb"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "User Accounts"
+        ],
+        "summary": "create",
+        "operationId": "createUsingPOST_3",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "user",
+            "description": "user",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/AccountUserDbVO"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/AccountUserDbVO"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/users/search": {
+      "post": {
+        "tags": [
+          "User Accounts"
+        ],
+        "summary": "query",
+        "operationId": "queryUsingPOST_1",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "query",
+            "description": "query",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/JsonNode"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/SearchRetrieveResponseVO\u00abAccountUserDbVO\u00bb"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/users/{userId}": {
+      "get": {
+        "tags": [
+          "User Accounts"
+        ],
+        "summary": "get",
+        "operationId": "getUsingGET_3",
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "userId",
+            "in": "path",
+            "description": "userId",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/AccountUserDbVO"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "User Accounts"
+        ],
+        "summary": "update",
+        "operationId": "updateUsingPUT_3",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "user",
+            "description": "user",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/AccountUserDbVO"
+            }
+          },
+          {
+            "name": "userId",
+            "in": "path",
+            "description": "userId",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/AccountUserDbVO"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "User Accounts"
+        ],
+        "summary": "delete",
+        "operationId": "deleteUsingDELETE_3",
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "userId",
+            "in": "path",
+            "description": "userId",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object"
+            }
+          },
+          "204": {
+            "description": "No Content"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          }
+        }
+      }
+    },
+    "/users/{userId}/activate": {
+      "put": {
+        "tags": [
+          "User Accounts"
+        ],
+        "summary": "activate",
+        "operationId": "activateUsingPUT",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "modificationDate",
+            "description": "modificationDate",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "userId",
+            "in": "path",
+            "description": "userId",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/AccountUserDbVO"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/users/{userId}/add": {
+      "put": {
+        "tags": [
+          "User Accounts"
+        ],
+        "summary": "addGrant",
+        "operationId": "addGrantUsingPUT",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "grants",
+            "description": "grants",
+            "required": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/GrantVO"
+              }
+            }
+          },
+          {
+            "name": "userId",
+            "in": "path",
+            "description": "userId",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/AccountUserDbVO"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/users/{userId}/deactivate": {
+      "put": {
+        "tags": [
+          "User Accounts"
+        ],
+        "summary": "deactivate",
+        "operationId": "deactivateUsingPUT",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "modificationDate",
+            "description": "modificationDate",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "userId",
+            "in": "path",
+            "description": "userId",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/AccountUserDbVO"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/users/{userId}/remove": {
+      "put": {
+        "tags": [
+          "User Accounts"
+        ],
+        "summary": "removeGrant",
+        "operationId": "removeGrantUsingPUT",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "grants",
+            "description": "grants",
+            "required": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/GrantVO"
+              }
+            }
+          },
+          {
+            "name": "userId",
+            "in": "path",
+            "description": "userId",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/AccountUserDbVO"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/yearbooks": {
+      "get": {
+        "tags": [
+          "Yearbooks"
+        ],
+        "summary": "getAll",
+        "operationId": "getAllUsingGET_3",
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "from",
+            "in": "query",
+            "description": "from",
+            "required": false,
+            "type": "integer",
+            "default": 0,
+            "format": "int32"
+          },
+          {
+            "name": "size",
+            "in": "query",
+            "description": "size",
+            "required": false,
+            "type": "integer",
+            "default": 10,
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/SearchRetrieveResponseVO\u00abYearbookDbVO\u00bb"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Yearbooks"
+        ],
+        "summary": "create",
+        "operationId": "createUsingPOST_4",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "yearbook",
+            "description": "yearbook",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/YearbookDbVO"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/YearbookDbVO"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/yearbooks/search": {
+      "post": {
+        "tags": [
+          "Yearbooks"
+        ],
+        "summary": "query",
+        "operationId": "queryUsingPOST_2",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "query",
+            "description": "query",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/JsonNode"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/SearchRetrieveResponseVO\u00abYearbookDbVO\u00bb"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/yearbooks/{yearbookId}": {
+      "get": {
+        "tags": [
+          "Yearbooks"
+        ],
+        "summary": "get",
+        "operationId": "getUsingGET_4",
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "yearbookId",
+            "in": "path",
+            "description": "yearbookId",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/YearbookDbVO"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Yearbooks"
+        ],
+        "summary": "update",
+        "operationId": "updateUsingPUT_4",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "yearbook",
+            "description": "yearbook",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/YearbookDbVO"
+            }
+          },
+          {
+            "name": "yearbookId",
+            "in": "path",
+            "description": "yearbookId",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/YearbookDbVO"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Yearbooks"
+        ],
+        "summary": "delete",
+        "operationId": "deleteUsingDELETE_4",
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "yearbookId",
+            "in": "path",
+            "description": "yearbookId",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object"
+            }
+          },
+          "204": {
+            "description": "No Content"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          }
+        }
+      }
+    },
+    "/yearbooks/{yearbookId}/items": {
+      "get": {
+        "tags": [
+          "Yearbooks"
+        ],
+        "summary": "getItems",
+        "operationId": "getItemsUsingGET",
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Authorization",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "citation",
+            "in": "query",
+            "description": "citation",
+            "required": false,
+            "type": "string",
+            "default": "APA",
+            "allowEmptyValue": false,
+            "enum": [
+              "APA",
+              "APA(CJK)",
+              "AJP",
+              "JUS",
+              "CSL"
+            ]
+          },
+          {
+            "name": "cslConeId",
+            "in": "query",
+            "description": "cslConeId",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "format",
+            "in": "query",
+            "description": "format",
+            "required": false,
+            "type": "string",
+            "default": "json",
+            "allowEmptyValue": false,
+            "enum": [
+              "json",
+              "eSciDoc_Itemlist_Xml",
+              "BibTeX",
+              "EndNote",
+              "Marc_Xml",
+              "pdf",
+              "docx",
+              "html_plain",
+              "html_linked",
+              "json_citation",
+              "escidoc_snippet"
+            ]
+          },
+          {
+            "name": "yearbookId",
+            "in": "path",
+            "description": "yearbookId",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/SearchRetrieveResponseVO\u00abItemVersionVO\u00bb"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "AbstractVO": {
+      "type": "object",
+      "properties": {
+        "language": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "title": "AbstractVO"
+    },
+    "AccountUserDbRO": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "objectId": {
+          "type": "string"
+        }
+      },
+      "title": "AccountUserDbRO"
+    },
+    "AccountUserDbVO": {
+      "type": "object",
+      "properties": {
+        "active": {
+          "type": "boolean"
+        },
+        "affiliation": {
+          "$ref": "#/definitions/AffiliationDbRO"
+        },
+        "creationDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "creator": {
+          "$ref": "#/definitions/AccountUserDbRO"
+        },
+        "email": {
+          "type": "string"
+        },
+        "grantList": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/GrantVO"
+          }
+        },
+        "lastModificationDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "loginname": {
+          "type": "string"
+        },
+        "modifier": {
+          "$ref": "#/definitions/AccountUserDbRO"
+        },
+        "name": {
+          "type": "string"
+        },
+        "objectId": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        }
+      },
+      "title": "AccountUserDbVO"
+    },
+    "AffiliationDbRO": {
+      "type": "object",
+      "properties": {
+        "creationDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "creator": {
+          "$ref": "#/definitions/AccountUserDbRO"
+        },
+        "lastModificationDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "modifier": {
+          "$ref": "#/definitions/AccountUserDbRO"
+        },
+        "name": {
+          "type": "string"
+        },
+        "objectId": {
+          "type": "string"
+        }
+      },
+      "title": "AffiliationDbRO"
+    },
+    "AffiliationDbVO": {
+      "type": "object",
+      "properties": {
+        "creationDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "creator": {
+          "$ref": "#/definitions/AccountUserDbRO"
+        },
+        "hasChildren": {
+          "type": "boolean"
+        },
+        "hasPredecessors": {
+          "type": "boolean"
+        },
+        "lastModificationDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "metadata": {
+          "$ref": "#/definitions/MdsOrganizationalUnitDetailsVO"
+        },
+        "modifier": {
+          "$ref": "#/definitions/AccountUserDbRO"
+        },
+        "name": {
+          "type": "string"
+        },
+        "objectId": {
+          "type": "string"
+        },
+        "parentAffiliation": {
+          "$ref": "#/definitions/AffiliationDbRO"
+        },
+        "predecessorAffiliations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/AffiliationDbRO"
+          }
+        },
+        "publicStatus": {
+          "type": "string",
+          "enum": [
+            "CREATED",
+            "CLOSED",
+            "OPENED",
+            "DELETED"
+          ]
+        }
+      },
+      "title": "AffiliationDbVO"
+    },
+    "AlternativeTitleVO": {
+      "type": "object",
+      "properties": {
+        "language": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "title": "AlternativeTitleVO"
+    },
+    "AuditDbVO": {
+      "type": "object",
+      "properties": {
+        "comment": {
+          "type": "string"
+        },
+        "event": {
+          "type": "string",
+          "enum": [
+            "CREATE",
+            "SUBMIT",
+            "RELEASE",
+            "REVISE",
+            "WITHDRAW",
+            "UPDATE"
+          ]
+        },
+        "id": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "modificationDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "modifier": {
+          "$ref": "#/definitions/AccountUserDbRO"
+        },
+        "pubItem": {
+          "$ref": "#/definitions/ItemVersionVO"
+        }
+      },
+      "title": "AuditDbVO"
+    },
+    "ContextDbRO": {
+      "type": "object",
+      "properties": {
+        "creationDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "creator": {
+          "$ref": "#/definitions/AccountUserDbRO"
+        },
+        "lastModificationDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "modifier": {
+          "$ref": "#/definitions/AccountUserDbRO"
+        },
+        "name": {
+          "type": "string"
+        },
+        "objectId": {
+          "type": "string"
+        }
+      },
+      "title": "ContextDbRO"
+    },
+    "ContextDbVO": {
+      "type": "object",
+      "properties": {
+        "allowedGenres": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "ARTICLE",
+              "BOOK",
+              "BOOK_ITEM",
+              "BOOK_REVIEW",
+              "CASE_NOTE",
+              "CASE_STUDY",
+              "COLLECTED_EDITION",
+              "COMMENTARY",
+              "CONFERENCE_PAPER",
+              "CONFERENCE_REPORT",
+              "CONTRIBUTION_TO_COLLECTED_EDITION",
+              "CONTRIBUTION_TO_COMMENTARY",
+              "CONTRIBUTION_TO_ENCYCLOPEDIA",
+              "CONTRIBUTION_TO_FESTSCHRIFT",
+              "CONTRIBUTION_TO_HANDBOOK",
+              "COURSEWARE_LECTURE",
+              "EDITORIAL",
+              "ENCYCLOPEDIA",
+              "FESTSCHRIFT",
+              "FILM",
+              "HANDBOOK",
+              "ISSUE",
+              "JOURNAL",
+              "MANUAL",
+              "MANUSCRIPT",
+              "MEETING_ABSTRACT",
+              "MONOGRAPH",
+              "MULTI_VOLUME",
+              "NEWSPAPER",
+              "NEWSPAPER_ARTICLE",
+              "OPINION",
+              "OTHER",
+              "PAPER",
+              "PATENT",
+              "POSTER",
+              "PROCEEDINGS",
+              "REPORT",
+              "SERIES",
+              "TALK_AT_EVENT",
+              "THESIS"
+            ]
+          }
+        },
+        "allowedSubjectClassifications": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "DDC",
+              "ISO639_3",
+              "JEL",
+              "JUS",
+              "MPINP",
+              "MPIPKS",
+              "MPIRG",
+              "MPIS_GROUPS",
+              "MPIS_PROJECTS",
+              "MPIWG_PROJECTS",
+              "MPICC_PROJECTS",
+              "PACS"
+            ]
+          }
+        },
+        "contactEmail": {
+          "type": "string"
+        },
+        "creationDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "creator": {
+          "$ref": "#/definitions/AccountUserDbRO"
+        },
+        "description": {
+          "type": "string"
+        },
+        "lastModificationDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "modifier": {
+          "$ref": "#/definitions/AccountUserDbRO"
+        },
+        "name": {
+          "type": "string"
+        },
+        "objectId": {
+          "type": "string"
+        },
+        "responsibleAffiliations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/AffiliationDbRO"
+          }
+        },
+        "state": {
+          "type": "string",
+          "enum": [
+            "CREATED",
+            "CLOSED",
+            "OPENED",
+            "DELETED"
+          ]
+        },
+        "workflow": {
+          "type": "string",
+          "enum": [
+            "STANDARD",
+            "SIMPLE"
+          ]
+        }
+      },
+      "title": "ContextDbVO"
+    },
+    "Coordinates": {
+      "type": "object",
+      "properties": {
+        "altitude": {
+          "type": "number",
+          "format": "double"
+        },
+        "latitude": {
+          "type": "number",
+          "format": "double"
+        },
+        "longitude": {
+          "type": "number",
+          "format": "double"
+        }
+      },
+      "title": "Coordinates"
+    },
+    "CreatorVO": {
+      "type": "object",
+      "properties": {
+        "organization": {
+          "$ref": "#/definitions/OrganizationVO"
+        },
+        "person": {
+          "$ref": "#/definitions/PersonVO"
+        },
+        "role": {
+          "type": "string",
+          "enum": [
+            "ARTIST",
+            "AUTHOR",
+            "EDITOR",
+            "PAINTER",
+            "ILLUSTRATOR",
+            "PHOTOGRAPHER",
+            "COMMENTATOR",
+            "TRANSCRIBER",
+            "ADVISOR",
+            "TRANSLATOR",
+            "CONTRIBUTOR",
+            "HONOREE",
+            "REFEREE",
+            "INVENTOR",
+            "APPLICANT",
+            "DIRECTOR",
+            "PRODUCER",
+            "ACTOR",
+            "CINEMATOGRAPHER",
+            "SOUND_DESIGNER"
+          ]
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "PERSON",
+            "ORGANIZATION"
+          ]
+        }
+      },
+      "title": "CreatorVO"
+    },
+    "EventVO": {
+      "type": "object",
+      "properties": {
+        "alternativeTitles": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/AlternativeTitleVO"
+          }
+        },
+        "endDate": {
+          "type": "string"
+        },
+        "invitationStatus": {
+          "type": "string",
+          "enum": [
+            "INVITED"
+          ]
+        },
+        "place": {
+          "type": "string"
+        },
+        "startDate": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        }
+      },
+      "title": "EventVO"
+    },
+    "FileDbVO": {
+      "type": "object",
+      "properties": {
+        "allowedAudienceIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "checksum": {
+          "type": "string"
+        },
+        "checksumAlgorithm": {
+          "type": "string",
+          "enum": [
+            "MD5"
+          ]
+        },
+        "content": {
+          "type": "string"
+        },
+        "creationDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "creator": {
+          "$ref": "#/definitions/AccountUserDbRO"
+        },
+        "lastModificationDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "metadata": {
+          "$ref": "#/definitions/MdsFileVO"
+        },
+        "mimeType": {
+          "type": "string"
+        },
+        "modifier": {
+          "$ref": "#/definitions/AccountUserDbRO"
+        },
+        "name": {
+          "type": "string"
+        },
+        "objectId": {
+          "type": "string"
+        },
+        "pid": {
+          "type": "string"
+        },
+        "size": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "storage": {
+          "type": "string",
+          "enum": [
+            "INTERNAL_MANAGED",
+            "EXTERNAL_URL"
+          ]
+        },
+        "visibility": {
+          "type": "string",
+          "enum": [
+            "PUBLIC",
+            "PRIVATE",
+            "AUDIENCE"
+          ]
+        }
+      },
+      "title": "FileDbVO"
+    },
+    "FormatVO": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "title": "FormatVO"
+    },
+    "FundingInfoVO": {
+      "type": "object",
+      "properties": {
+        "fundingOrganization": {
+          "$ref": "#/definitions/FundingOrganizationVO"
+        },
+        "fundingProgram": {
+          "$ref": "#/definitions/FundingProgramVO"
+        }
+      },
+      "title": "FundingInfoVO"
+    },
+    "FundingOrganizationVO": {
+      "type": "object",
+      "properties": {
+        "identifiers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/IdentifierVO"
+          }
+        },
+        "title": {
+          "type": "string"
+        }
+      },
+      "title": "FundingOrganizationVO"
+    },
+    "FundingProgramVO": {
+      "type": "object",
+      "properties": {
+        "identifiers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/IdentifierVO"
+          }
+        },
+        "title": {
+          "type": "string"
+        }
+      },
+      "title": "FundingProgramVO"
+    },
+    "GrantVO": {
+      "type": "object",
+      "properties": {
+        "grantType": {
+          "type": "string"
+        },
+        "objectRef": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        }
+      },
+      "title": "GrantVO"
+    },
+    "IdentifierVO": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "ARXIV",
+            "BIBTEX_CITEKEY",
+            "BMC",
+            "CONE",
+            "DOI",
+            "EDOC",
+            "ESCIDOC",
+            "GRANT_ID",
+            "ISBN",
+            "ISI",
+            "ISSN",
+            "OPEN_AIRE",
+            "OTHER",
+            "PATENT_APPLICATION_NR",
+            "PATENT_NR",
+            "PATENT_PUBLICATION_NR",
+            "PII",
+            "PMC",
+            "PMID",
+            "PND",
+            "REPORT_NR",
+            "SSRN",
+            "URI",
+            "URN",
+            "ZDB"
+          ]
+        }
+      },
+      "title": "IdentifierVO"
+    },
+    "ItemVersionRO": {
+      "type": "object",
+      "properties": {
+        "modificationDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "modifier": {
+          "$ref": "#/definitions/AccountUserDbRO"
+        },
+        "objectId": {
+          "type": "string"
+        },
+        "versionNumber": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "versionPid": {
+          "type": "string"
+        },
+        "versionState": {
+          "type": "string",
+          "enum": [
+            "PENDING",
+            "SUBMITTED",
+            "RELEASED",
+            "WITHDRAWN",
+            "IN_REVISION"
+          ]
+        }
+      },
+      "title": "ItemVersionRO"
+    },
+    "ItemVersionVO": {
+      "type": "object",
+      "properties": {
+        "context": {
+          "$ref": "#/definitions/ContextDbRO"
+        },
+        "creationDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "creator": {
+          "$ref": "#/definitions/AccountUserDbRO"
+        },
+        "files": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/FileDbVO"
+          }
+        },
+        "lastModificationDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "latestRelease": {
+          "$ref": "#/definitions/ItemVersionRO"
+        },
+        "latestVersion": {
+          "$ref": "#/definitions/ItemVersionRO"
+        },
+        "localTags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "message": {
+          "type": "string"
+        },
+        "metadata": {
+          "$ref": "#/definitions/MdsPublicationVO"
+        },
+        "modificationDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "modifier": {
+          "$ref": "#/definitions/AccountUserDbRO"
+        },
+        "objectId": {
+          "type": "string"
+        },
+        "objectPid": {
+          "type": "string"
+        },
+        "publicState": {
+          "type": "string",
+          "enum": [
+            "PENDING",
+            "SUBMITTED",
+            "RELEASED",
+            "WITHDRAWN",
+            "IN_REVISION"
+          ]
+        },
+        "versionNumber": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "versionPid": {
+          "type": "string"
+        },
+        "versionState": {
+          "type": "string",
+          "enum": [
+            "PENDING",
+            "SUBMITTED",
+            "RELEASED",
+            "WITHDRAWN",
+            "IN_REVISION"
+          ]
+        }
+      },
+      "title": "ItemVersionVO"
+    },
+    "JsonNode": {
+      "type": "object",
+      "title": "JsonNode"
+    },
+    "LegalCaseVO": {
+      "type": "object",
+      "properties": {
+        "courtName": {
+          "type": "string"
+        },
+        "datePublished": {
+          "type": "string"
+        },
+        "identifier": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        }
+      },
+      "title": "LegalCaseVO"
+    },
+    "MdsFileVO": {
+      "type": "object",
+      "properties": {
+        "contentCategory": {
+          "type": "string"
+        },
+        "copyrightDate": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "embargoUntil": {
+          "type": "string"
+        },
+        "formats": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/FormatVO"
+          }
+        },
+        "identifiers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/IdentifierVO"
+          }
+        },
+        "license": {
+          "type": "string"
+        },
+        "rights": {
+          "type": "string"
+        },
+        "size": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "title": {
+          "type": "string"
+        }
+      },
+      "title": "MdsFileVO"
+    },
+    "MdsOrganizationalUnitDetailsVO": {
+      "type": "object",
+      "properties": {
+        "alternativeNames": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "city": {
+          "type": "string"
+        },
+        "coordinates": {
+          "$ref": "#/definitions/Coordinates"
+        },
+        "countryCode": {
+          "type": "string"
+        },
+        "descriptions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "endDate": {
+          "type": "string"
+        },
+        "identifiers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/IdentifierVO"
+          }
+        },
+        "name": {
+          "type": "string"
+        },
+        "startDate": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        }
+      },
+      "title": "MdsOrganizationalUnitDetailsVO"
+    },
+    "MdsPublicationVO": {
+      "type": "object",
+      "properties": {
+        "abstracts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/AbstractVO"
+          }
+        },
+        "alternativeTitles": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/AlternativeTitleVO"
+          }
+        },
+        "creators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/CreatorVO"
+          }
+        },
+        "dateAccepted": {
+          "type": "string"
+        },
+        "dateCreated": {
+          "type": "string"
+        },
+        "dateModified": {
+          "type": "string"
+        },
+        "datePublishedInPrint": {
+          "type": "string"
+        },
+        "datePublishedOnline": {
+          "type": "string"
+        },
+        "dateSubmitted": {
+          "type": "string"
+        },
+        "degree": {
+          "type": "string",
+          "enum": [
+            "BACHELOR",
+            "DIPLOMA",
+            "HABILITATION",
+            "MAGISTER",
+            "MASTER",
+            "PHD",
+            "STAATSEXAMEN"
+          ]
+        },
+        "event": {
+          "$ref": "#/definitions/EventVO"
+        },
+        "freeKeywords": {
+          "type": "string"
+        },
+        "genre": {
+          "type": "string",
+          "enum": [
+            "ARTICLE",
+            "BOOK",
+            "BOOK_ITEM",
+            "BOOK_REVIEW",
+            "CASE_NOTE",
+            "CASE_STUDY",
+            "COLLECTED_EDITION",
+            "COMMENTARY",
+            "CONFERENCE_PAPER",
+            "CONFERENCE_REPORT",
+            "CONTRIBUTION_TO_COLLECTED_EDITION",
+            "CONTRIBUTION_TO_COMMENTARY",
+            "CONTRIBUTION_TO_ENCYCLOPEDIA",
+            "CONTRIBUTION_TO_FESTSCHRIFT",
+            "CONTRIBUTION_TO_HANDBOOK",
+            "COURSEWARE_LECTURE",
+            "EDITORIAL",
+            "ENCYCLOPEDIA",
+            "FESTSCHRIFT",
+            "FILM",
+            "HANDBOOK",
+            "ISSUE",
+            "JOURNAL",
+            "MANUAL",
+            "MANUSCRIPT",
+            "MEETING_ABSTRACT",
+            "MONOGRAPH",
+            "MULTI_VOLUME",
+            "NEWSPAPER",
+            "NEWSPAPER_ARTICLE",
+            "OPINION",
+            "OTHER",
+            "PAPER",
+            "PATENT",
+            "POSTER",
+            "PROCEEDINGS",
+            "REPORT",
+            "SERIES",
+            "TALK_AT_EVENT",
+            "THESIS"
+          ]
+        },
+        "identifiers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/IdentifierVO"
+          }
+        },
+        "languages": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "legalCase": {
+          "$ref": "#/definitions/LegalCaseVO"
+        },
+        "location": {
+          "type": "string"
+        },
+        "projectInfo": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ProjectInfoVO"
+          }
+        },
+        "publishingInfo": {
+          "$ref": "#/definitions/PublishingInfoVO"
+        },
+        "reviewMethod": {
+          "type": "string",
+          "enum": [
+            "INTERNAL",
+            "NO_REVIEW",
+            "PEER"
+          ]
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/SourceVO"
+          }
+        },
+        "subjects": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/SubjectVO"
+          }
+        },
+        "tableOfContents": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "totalNumberOfPages": {
+          "type": "string"
+        }
+      },
+      "title": "MdsPublicationVO"
+    },
+    "OrganizationVO": {
+      "type": "object",
+      "properties": {
+        "address": {
+          "type": "string"
+        },
+        "identifier": {
+          "type": "string"
+        },
+        "identifierPath": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "title": "OrganizationVO"
+    },
+    "PersonVO": {
+      "type": "object",
+      "properties": {
+        "alternativeNames": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "completeName": {
+          "type": "string"
+        },
+        "familyName": {
+          "type": "string"
+        },
+        "givenName": {
+          "type": "string"
+        },
+        "identifier": {
+          "$ref": "#/definitions/IdentifierVO"
+        },
+        "organizations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/OrganizationVO"
+          }
+        },
+        "pseudonyms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "titles": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "title": "PersonVO"
+    },
+    "ProjectInfoVO": {
+      "type": "object",
+      "properties": {
+        "fundingInfo": {
+          "$ref": "#/definitions/FundingInfoVO"
+        },
+        "grantIdentifier": {
+          "$ref": "#/definitions/IdentifierVO"
+        },
+        "title": {
+          "type": "string"
+        }
+      },
+      "title": "ProjectInfoVO"
+    },
+    "PublishingInfoVO": {
+      "type": "object",
+      "properties": {
+        "edition": {
+          "type": "string"
+        },
+        "place": {
+          "type": "string"
+        },
+        "publisher": {
+          "type": "string"
+        }
+      },
+      "title": "PublishingInfoVO"
+    },
+    "SearchRetrieveRecordVO\u00abAccountUserDbVO\u00bb": {
+      "type": "object",
+      "properties": {
+        "data": {
+          "$ref": "#/definitions/AccountUserDbVO"
+        },
+        "packing": {
+          "type": "string"
+        },
+        "persistenceId": {
+          "type": "string"
+        },
+        "schema": {
+          "type": "string"
+        }
+      },
+      "title": "SearchRetrieveRecordVO\u00abAccountUserDbVO\u00bb"
+    },
+    "SearchRetrieveRecordVO\u00abAffiliationDbVO\u00bb": {
+      "type": "object",
+      "properties": {
+        "data": {
+          "$ref": "#/definitions/AffiliationDbVO"
+        },
+        "packing": {
+          "type": "string"
+        },
+        "persistenceId": {
+          "type": "string"
+        },
+        "schema": {
+          "type": "string"
+        }
+      },
+      "title": "SearchRetrieveRecordVO\u00abAffiliationDbVO\u00bb"
+    },
+    "SearchRetrieveRecordVO\u00abContextDbVO\u00bb": {
+      "type": "object",
+      "properties": {
+        "data": {
+          "$ref": "#/definitions/ContextDbVO"
+        },
+        "packing": {
+          "type": "string"
+        },
+        "persistenceId": {
+          "type": "string"
+        },
+        "schema": {
+          "type": "string"
+        }
+      },
+      "title": "SearchRetrieveRecordVO\u00abContextDbVO\u00bb"
+    },
+    "SearchRetrieveRecordVO\u00abItemVersionVO\u00bb": {
+      "type": "object",
+      "properties": {
+        "data": {
+          "$ref": "#/definitions/ItemVersionVO"
+        },
+        "packing": {
+          "type": "string"
+        },
+        "persistenceId": {
+          "type": "string"
+        },
+        "schema": {
+          "type": "string"
+        }
+      },
+      "title": "SearchRetrieveRecordVO\u00abItemVersionVO\u00bb"
+    },
+    "SearchRetrieveRecordVO\u00abYearbookDbVO\u00bb": {
+      "type": "object",
+      "properties": {
+        "data": {
+          "$ref": "#/definitions/YearbookDbVO"
+        },
+        "packing": {
+          "type": "string"
+        },
+        "persistenceId": {
+          "type": "string"
+        },
+        "schema": {
+          "type": "string"
+        }
+      },
+      "title": "SearchRetrieveRecordVO\u00abYearbookDbVO\u00bb"
+    },
+    "SearchRetrieveResponseVO\u00abAccountUserDbVO\u00bb": {
+      "type": "object",
+      "properties": {
+        "numberOfRecords": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "records": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/SearchRetrieveRecordVO\u00abAccountUserDbVO\u00bb"
+          }
+        },
+        "scrollId": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        }
+      },
+      "title": "SearchRetrieveResponseVO\u00abAccountUserDbVO\u00bb"
+    },
+    "SearchRetrieveResponseVO\u00abAffiliationDbVO\u00bb": {
+      "type": "object",
+      "properties": {
+        "numberOfRecords": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "records": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/SearchRetrieveRecordVO\u00abAffiliationDbVO\u00bb"
+          }
+        },
+        "scrollId": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        }
+      },
+      "title": "SearchRetrieveResponseVO\u00abAffiliationDbVO\u00bb"
+    },
+    "SearchRetrieveResponseVO\u00abContextDbVO\u00bb": {
+      "type": "object",
+      "properties": {
+        "numberOfRecords": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "records": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/SearchRetrieveRecordVO\u00abContextDbVO\u00bb"
+          }
+        },
+        "scrollId": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        }
+      },
+      "title": "SearchRetrieveResponseVO\u00abContextDbVO\u00bb"
+    },
+    "SearchRetrieveResponseVO\u00abItemVersionVO\u00bb": {
+      "type": "object",
+      "properties": {
+        "numberOfRecords": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "records": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/SearchRetrieveRecordVO\u00abItemVersionVO\u00bb"
+          }
+        },
+        "scrollId": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        }
+      },
+      "title": "SearchRetrieveResponseVO\u00abItemVersionVO\u00bb"
+    },
+    "SearchRetrieveResponseVO\u00abYearbookDbVO\u00bb": {
+      "type": "object",
+      "properties": {
+        "numberOfRecords": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "records": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/SearchRetrieveRecordVO\u00abYearbookDbVO\u00bb"
+          }
+        },
+        "scrollId": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        }
+      },
+      "title": "SearchRetrieveResponseVO\u00abYearbookDbVO\u00bb"
+    },
+    "SourceVO": {
+      "type": "object",
+      "properties": {
+        "alternativeTitles": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/AlternativeTitleVO"
+          }
+        },
+        "creators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/CreatorVO"
+          }
+        },
+        "datePublishedInPrint": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "endPage": {
+          "type": "string"
+        },
+        "genre": {
+          "type": "string",
+          "enum": [
+            "BOOK",
+            "PROCEEDINGS",
+            "JOURNAL",
+            "ISSUE",
+            "SERIES",
+            "NEWSPAPER",
+            "ENCYCLOPEDIA",
+            "MULTI_VOLUME",
+            "COMMENTARY",
+            "HANDBOOK",
+            "COLLECTED_EDITION",
+            "FESTSCHRIFT"
+          ]
+        },
+        "identifiers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/IdentifierVO"
+          }
+        },
+        "issue": {
+          "type": "string"
+        },
+        "publishingInfo": {
+          "$ref": "#/definitions/PublishingInfoVO"
+        },
+        "sequenceNumber": {
+          "type": "string"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/SourceVO"
+          }
+        },
+        "startPage": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "totalNumberOfPages": {
+          "type": "string"
+        },
+        "volume": {
+          "type": "string"
+        }
+      },
+      "title": "SourceVO"
+    },
+    "SubjectVO": {
+      "type": "object",
+      "properties": {
+        "language": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "title": "SubjectVO"
+    },
+    "TaskParamVO": {
+      "type": "object",
+      "properties": {
+        "comment": {
+          "type": "string"
+        },
+        "lastModificationDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "password": {
+          "type": "string"
+        }
+      },
+      "title": "TaskParamVO"
+    },
+    "YearbookDbVO": {
+      "type": "object",
+      "properties": {
+        "contextIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "creationDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "creator": {
+          "$ref": "#/definitions/AccountUserDbRO"
+        },
+        "itemIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "lastModificationDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "modifier": {
+          "$ref": "#/definitions/AccountUserDbRO"
+        },
+        "name": {
+          "type": "string"
+        },
+        "objectId": {
+          "type": "string"
+        },
+        "organization": {
+          "$ref": "#/definitions/AffiliationDbVO"
+        },
+        "state": {
+          "type": "string",
+          "enum": [
+            "CREATED",
+            "SUBMITTED",
+            "RELEASED"
+          ]
+        },
+        "year": {
+          "type": "integer",
+          "format": "int32"
+        }
+      },
+      "title": "YearbookDbVO"
+    }
+  }
+}

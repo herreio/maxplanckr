@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+echo ""
+echo "    extract data from json response..."
+echo ""
+WD=$(dirname "$0")
+PY_DIR=$WD"/../inst/python"
+cd $PY_DIR
+source env/bin/activate
+echo "start extraction!"
+python -m extract.graph
+python -m extract.items
+python -m extract.stats
+python -m extract.titles
+echo "finished extraction!"
+deactivate
+echo ""
+echo "    all done!"
+echo ""

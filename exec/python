@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+echo ""
+echo "    create python environment..."
+echo ""
+WD=$(dirname "$0")
+PY_DIR=$WD"/../inst/python"
+cd $PY_DIR
+virtualenv -p python3 --no-site-packages env
+source env/bin/activate
+echo ""
+echo "    install requirements..."
+echo ""
+pip install -r requirements.txt
+deactivate
+echo ""
+echo "    all done!"
+echo ""
