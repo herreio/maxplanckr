@@ -1,3 +1,5 @@
+# devtools::load_all()
+
 pc_graph <- maxplanckr::get_pc_graph()
 
 # ////////////////// #
@@ -43,6 +45,52 @@ mpis <- setNames(
 )
 
 usethis::use_data(mpis, overwrite=T)
+
+# ///////////// #
+# /// ITEMS /// #
+# ///////////// #
+
+items_nodes_pub <- maxplanckr::read_data(pc_graph$items_nodes_pub)
+items_nodes_ous <- maxplanckr::read_data(pc_graph$items_nodes_ous)
+items_nodes_pers <- maxplanckr::read_data(pc_graph$items_nodes_pers)
+items_nodes_pers_ous <- maxplanckr::read_data(pc_graph$items_nodes_pers_ous)
+items_nodes_ext <- maxplanckr::read_data(pc_graph$items_nodes_ext)
+items_nodes_ext_ous <- maxplanckr::read_data(pc_graph$items_nodes_ext_ous)
+items_nodes_src_ous <- maxplanckr::read_data(pc_graph$items_nodes_src_ous)
+items_nodes_src_pers <- maxplanckr::read_data(pc_graph$items_nodes_src_pers)
+items_nodes_src_pers_ous <- maxplanckr::read_data(pc_graph$items_nodes_src_pers_ous)
+items_nodes_src_ext <- maxplanckr::read_data(pc_graph$items_nodes_src_ext)
+items_nodes_src_ext_ous <- maxplanckr::read_data(pc_graph$items_nodes_src_ext_ous)
+items_edges_pub_ous <- maxplanckr::read_data(pc_graph$items_edges_pub_ous)
+items_edges_pub_pers <- maxplanckr::read_data(pc_graph$items_edges_pub_pers)
+items_edges_pub_ext <- maxplanckr::read_data(pc_graph$items_edges_pub_ext)
+items_edges_pers_ous <- maxplanckr::read_data(pc_graph$items_edges_pers_ous)
+items_edges_ext_ous <- maxplanckr::read_data(pc_graph$items_edges_ext_ous)
+items_edges_src_ext <- maxplanckr::read_data(pc_graph$items_edges_src_ext)
+items_edges_src_ext_ous <- maxplanckr::read_data(pc_graph$items_edges_src_ext)
+items_edges_src_ous <- maxplanckr::read_data(pc_graph$items_edges_src_ous)
+items_edges_src_pers <- maxplanckr::read_data(pc_graph$items_edges_src_pers)
+items_edges_src_pers_ous <- maxplanckr::read_data(pc_graph$items_edges_src_pers_ous)
+
+
+items <- setNames(
+  list(items_nodes_pub, items_nodes_ous, items_nodes_pers, items_nodes_pers_ous,
+      items_nodes_ext, items_nodes_ext_ous, items_nodes_src_ous, items_nodes_src_pers,
+      items_nodes_src_pers_ous, items_nodes_src_ext, items_nodes_src_ext_ous,
+      items_edges_pub_ous, items_edges_pub_pers, items_edges_pub_ext,
+      items_edges_pers_ous, items_edges_ext_ous, items_edges_src_ext,
+      items_edges_src_ext_ous, items_edges_src_ous, items_edges_src_pers,
+      items_edges_src_pers_ous),
+  c("nodes_pub", "nodes_ous", "nodes_pers", "nodes_pers_ous",
+  "nodes_ext", "nodes_ext_ous", "nodes_src_ous", "nodes_src_pers",
+  "nodes_src_pers_ous", "nodes_src_ext", "nodes_src_ext_ous",
+  "edges_pub_ous", "edges_pub_pers", "edges_pub_ext",
+  "edges_pers_ous", "edges_ext_ous", "edges_src_ext",
+  "edges_src_ext_ous", "edges_src_ous", "edges_src_pers",
+  "edges_src_pers_ous")
+)
+
+usethis::use_data(items, overwrite=T)
 
 # ///////////////// #
 # /// SELECTION /// #
