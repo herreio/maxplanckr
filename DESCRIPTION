@@ -14,9 +14,4 @@ Imports:
     slam,
     tm
 RoxygenNote: 7.0.2
-SystemRequirements: Python3, virtualenv, Firefox, Geckodriver
-Collate: 
-    'extdata.R'
-    'filter.R'
-    'pyimp.R'
-    'utils.R'
+SystemRequirements: Python3, virtualenv (optional: Firefox, Geckodriver)
