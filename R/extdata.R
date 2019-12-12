@@ -90,21 +90,8 @@ get_pc_titles <- function() {
   dp_titles <- get_dp_titles()
   data.frame(
     "all_lang" = file.path(dp_titles, "all-lang"),
-    "all_lang_year" = file.path(dp_titles, "all-lang-year"),
-    "all_lang_genre" = file.path(dp_titles, "all-lang-genre"),
-    "all_lang_year_genre" = file.path(dp_titles, "all-lang-year-genre"),
-    "cat_lang" = file.path(dp_titles, "cat-lang"),
-    "cat_lang_genre" = file.path(dp_titles, "cat-lang-genre"),
-    "cat_lang_year" = file.path(dp_titles, "cat-lang-year"),
-    "cat_lang_year_genre" = file.path(dp_titles, "cat-lang-year-genre"),
     "mpi_lang" = file.path(dp_titles, "mpi-lang"),
-    "mpi_lang_genre" = file.path(dp_titles, "mpi-lang-genre"),
-    "mpi_lang_year" = file.path(dp_titles, "mpi-lang-year"),
-    "mpi_lang_year_genre" = file.path(dp_titles, "mpi-lang-year-genre"),
     "pers_lang" = file.path(dp_titles, "pers-lang"),
-    "pers_lang_genre" = file.path(dp_titles, "pers-lang-genre"),
-    "pers_lang_year" = file.path(dp_titles, "pers-lang-year"),
-    "pers_lang_year_genre" = file.path(dp_titles, "pers-lang-year-genre"),
     stringsAsFactors = F
   )
 }
