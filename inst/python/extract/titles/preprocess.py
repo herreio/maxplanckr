@@ -4,7 +4,7 @@ from .stopwords import get_stopwords
 
 from ..utils.clean import clean_title
 
-stop = get_stopwords('smart')
+# stop = get_stopwords('smart')
 
 latex = re.compile(r"\\bold|\\widehat|\\overline|\\times|\\sqrt|\\log|\\rightarrow|\\vert|\\Bbb")
 latex_math = re.compile(r"[^a-z\s]?\$.+?\$[^a-z\s]?")
@@ -21,9 +21,9 @@ def clean(title):
     title = roman.sub(" ", title)
     title = punct.sub(" ", title)
     title = remove_numbers(title)
-    title = remove_stopwords(title)
+    # title = remove_stopwords(title)
     title = remove_nonascii(title)
-    title = remove_short(title)
+    # title = remove_short(title)
     title = re.sub(r"\s+", " ", title)
     title = title.strip()
     return title
