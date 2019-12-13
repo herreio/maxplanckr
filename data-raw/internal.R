@@ -1,4 +1,4 @@
-# devtools::load_all()
+devtools::load_all()
 
 pure_ctx <- maxplanckr::read_data(pc_graph$pure_nodes_ctx)
 pure_ous <- maxplanckr::read_data(pc_graph$pure_nodes_ous)

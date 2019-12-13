@@ -1,4 +1,4 @@
-# devtools::load_all()
+devtools::load_all()
 
 pc_graph <- maxplanckr::get_pc_graph()
 
@@ -91,15 +91,3 @@ items <- setNames(
 )
 
 usethis::use_data(items, overwrite=T)
-
-# ///////////////// #
-# /// SELECTION /// #
-# ///////////////// #
-
-sel_ctx <- maxplanckr::read_data(pc_graph$sel_nodes_ctx)
-sel_ous <- maxplanckr::read_data(pc_graph$sel_nodes_ous)
-sel_ous_ctx <- maxplanckr::read_data(pc_graph$sel_edges_ous_ctx)
-
-sel <- setNames(list(sel_ctx, sel_ous, sel_ous_ctx),
-                   c("ctx", "ous", "ous_ctx"))
-usethis::use_data(sel, overwrite=T)
