@@ -18,3 +18,16 @@ read_data <- function(fp) {
   csv <- read_csv(fp)
   dplyr::as_tibble(csv)
 }
+
+#' Read tsv function
+#'
+#' @export
+read_tsv <- function(fp) {
+    read.csv(fp,
+        sep = "\t",
+        quote = "",
+        header = T,
+        encoding = "UTF-8",
+        stringsAsFactors = F
+    )
+}

@@ -1,4 +1,9 @@
 #' @export
+get_dp_count <- function() {
+  system.file("extdata/prepared/count", package="maxplanckr")
+}
+
+#' @export
 get_dp_graph <- function() {
   system.file("extdata/prepared/graph", package="maxplanckr")
 }
@@ -11,6 +16,17 @@ get_dp_tables <- function() {
 #' @export
 get_dp_titles <- function() {
   system.file("extdata/prepared/titles", package="maxplanckr")
+}
+
+#' @export
+get_pc_count <- function() {
+  dp_count <- get_dp_count()
+  data.frame(
+    "journals" = file.path(dp_count, "journals"),
+    "persons" = file.path(dp_count, "persons"),
+    "records" = file.path(dp_count, "records"),
+    stringsAsFactors = F
+  )
 }
 
 #' @export
