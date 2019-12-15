@@ -66,29 +66,34 @@ plain_to_dtm <- function(fp, fpattern = ".txt") {
   return(dtm)
 }
 
-# docterm_csv <- function(fp, fpattern = ".csv") {
-#   cat("collecting file names...\n")
-#   fpaths <- list.files(fp, pattern=fpattern, full.names=TRUE)
-#   cat("read files and create corpus...\n")
-#   list_docterm <- lapply(fpaths, function(x) { read_docterm(x) })
-#   docterm <- list_docterm[[1]]
-#   if (length(list_docterm) > 1) {
-#     n <- 2:length(list_docterm)
-#     for(i in n) { docterm <- dplyr::bind_rows(docterm, list_docterm[[i]]) }
-#   }
-#   cat("success!\n")
-#   return(docterm)
-# }
-# 
-# read_docterm <- function(x) {
-#   readr::read_delim(
-#     x,
-#     ",",
-#     escape_double = FALSE,
-#     col_types = readr::cols(
-#       Doc = col_character(),
-#       Term = col_character()),
-#     trim_ws = TRUE
-#   )
-# }
-# 
+#' Create docid term table from directory containing csv files
+#'
+#' @export
+docterm_csv <- function(fp, fpattern = ".csv") {
+  cat("collecting file names...\n")
+  fpaths <- list.files(fp, pattern=fpattern, full.names=TRUE)
+  cat("read files and create corpus...\n")
+  list_docterm <- lapply(fpaths, function(x) { read_docterm(x) })
+  docterm <- list_docterm[[1]]
+  if (length(list_docterm) > 1) {
+    n <- 2:length(list_docterm)
+    for(i in n) { docterm <- dplyr::bind_rows(docterm, list_docterm[[i]]) }
+  }
+  cat("success!\n")
+  return(docterm)
+}
+
+#' Read docid term table from csv
+#'
+#' @export
+read_docterm <- function(x) {
+  readr::read_delim(
+    x,
+    ",",
+    escape_double = FALSE,
+    col_types = readr::cols(
+      Doc = col_character(),
+      Term = col_character()),
+    trim_ws = TRUE
+  )
+}
