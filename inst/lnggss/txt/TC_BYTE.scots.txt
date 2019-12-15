@@ -1,0 +1,1016 @@
+AGN at MeV gamma-ray energies
+PARSEC the laser for the VLT
+How typical are atypical current sheets?
+Nucleosynthesis gamma-rays
+Is there As-if Bargaining?
+Interview: Der richtige Weg zur Bad Bank [The Good Way to a Bad Bank]
+Teams Take the Better Risk
+What Numbers to Choose for My Lottery Ticket? Behavior Anomalies in the Chinese Online Lottery Market
+Privacy as a Public Good
+Are groups Better in Capitalizing on Power than Individuals?
+Google Book Search: A Rich Field for Scholarship
+[no title]
+A yellow-footed pink-footed shag : an unusual Stewart island shag at Taiaroa head
+Towards Motor Skill Learning for Robotics
+A Kernel Two-Sample Test
+Optimal kernel choice for large-scale two-sample tests
+Alphatier
+Ether
+Models for correlated Rydberg gases
+A New Lower Limit to the Galactic Centre's Magnetic Field
+Simplified models for dark matter searches at the LHC
+Search for the rare decay K-s(0) -> mu(+)mu(-)
+Centaurus A at gamma-ray energies
+Search for the decay D0 → π+π-μ+μ-
+Is the dark matter particle its own antiparticle?
+Pseudoscalar Mediators: A WIMP model at the Neutrino Floor
+A Template-based gamma-ray Reconstruction Method for Air Shower Arrays
+Monte Carlo design studies for the Cherenkov Telescope Array
+Search for the decay B-s(0) -> D*(-/+)pi(+/-)
+HESS J0632+057: A new gamma-ray binary?
+Towards the H.E.S.S. Galactic Plane Survey Gamma-Ray Source Catalog
+A neutrinophilic two Higgs doublet model with an A4 flavour symmetry for Dirac neutrinos
+A Monte Carlo Template based analysis for Air-Cherenkov Arrays
+Two Stories for Beyond the Standard Model
+A major electronics upgrade for the H.E.S.S. Cherenkov telescopes 1-4
+Search for the B0d s → K*0K0s decays at LHCb
+Search for the rare decay B+ → μ+μ−μ+νμ
+Low-scale leptogenesis with three heavy neutrinos
+Forward Physics at the LHC (Elba 2010)
+The GCT camera for the Cherenkov Telescope Array
+The Galactic Centre - a laboratory for starburst galaxies (?)
+Antimaterie - Spiegelbild oder Zerrbild
+ISOLTRAP: An on-line Penning trap for mass spectrometry on short-lived nuclides
+FLUTE: A versatile linac-based THz source
+The Galactic Centre - a laboratory for starburst galaxies (?)
+Dark matter searches at the Galactic Center
+Search for the decay B0s→ -D0 f0(980)
+A permanent asymmetric dust cloud around the Moon
+FlashCam: a fully-digital camera for the medium-sized telescopes of the Cherenkov Telescope Array
+Isotopic shift measured with a spin-orbit wave packet
+Towards an optimized design for the Cherenkov Telescope Array
+CRBTSM 2014: Cosmic Ray Origin – Beyond the Standard Models
+A search for Ξ++cc → D+pK−π+ decays
+Further study of the global minimum constraint on the two-Higgs-doublet models: LHC searches for heavy Higgs bosons
+Simplified Dirac dark matter models and gamma-ray lines
+Gammapy: An open-source Python package for gamma-ray astronomy
+A left-right symmetric flavor symmetry model
+Astropy: A Community Python Package for Astronomy
+Theory for baryon number and dark matter at the LHC
+The CTA aims at the Inert Doublet Model
+Metal-loaded organic scintillators for neutrino physics
+New limits on the dark matter lifetime from dwarf spheroidal galaxies using Fermi-LAT
+High-energy bremsstrahlung on atoms in a laser field
+Dark matter and U(1)′ symmetry for the right-handed neutrinos
+A moiré deflectometer for antimatter
+Scalar dark matter in the B - L model
+A Search for Dark Matter in the Galactic Halo with HAWC
+Searching for secluded dark matter with HESS Fermi-LAT and Planck
+A major electronics upgrade for the H.E.S.S. Cherenkov telescopes 1-4
+Giant collimated gamma-ray flashes
+Prospects for three-body Higgs decays into extra light scalars
+Molecular Basis for Converting (2S)-Methylsuccinyl-CoA Dehydrogenase into an Oxidase
+Crude-MS Strategy for in-Depth Proteome Analysis of the Methane-Oxidizing Methylocystis sp strain SC2
+The wolf in sheep's clothing: Against a new data-driven imperialism
+A self-stabilizing learning rule for minor component analysis
+Shielded dual-loop resonator for arterial spin labeling at the neck
+Brain (Brain image analysis) - A toolkit for the analysis of multimodal brain datasets
+Diagnostic transcranial ultrasound perfusion-imaging at 2.5 MHz does not affect the blood-brain barrier
+Single-Shot Localized Echo-Planar Imaging (Steam Epi) At 4.7 Tesla
+Beyond the visible - imaging the human brain with light
+A fast method for 1D non-cartesian parallel imaging
+The Capillary Network - A Link Between Ivim And Classical Perfusion
+Classifying brain shapes
+Towards an artificial pinna for a narrow-band biomimetic sonarhead
+Behind the Ausweis: Keeping Track in Nazi Germany
+Willibald Pirckheimer and His Greek Codices from Buda
+Günther Müller
+Leibniz around 1700 : three texts on metaphysics
+Towards an Archaeology of Zoos
+A Soup for the Qan: Chinese Dietary Medicine of the Mongol Era as Seen in Hu Sihui's Yinshan Zhengyao
+A writer looking for his writing scene. Paul Valéry’s 'Cahiers' around 1894
+On ym and A.AB.BA at Ugarit
+Scalar self-force for eccentric orbits around a Schwarzschild black hole
+Short gamma-ray bursts in the time-reversal scenario
+Quantum Stability for the Heisenberg Ferromagnet
+Mock LISA data challenge for the galactic white dwarf binaries
+Einstein spaces as attractors for the Einstein flow
+Asymptotic safety goes on shell
+Black-hole lattices
+Non-abelian cubic vertices for higher-spin fields in AdS(d)
+Enchilada is back on the menu
+4-particle Amplituhedronics for 3-5 loops
+Light-Front Bootstrap for Chern-Simons Matter Theories
+What if there was no big bang?
+New ALPS Results on Hidden-Sector Lightweights
+Einstein spaces as attractors for the Einstein flow
+Quantum Noise for Faraday Light Matter Interfaces
+Worldsheet Form Factors in AdS/CFT
+Numerical Brill-Lindquist initial data with a Schwarzschildean end at spatial infinity
+Brewing moonshine for Mathieu
+Maxwell-like Lagrangians for higher spins
+Towards A Possible Fluid Flow Underlying the Kerr Spacetime
+Asymptotic W-symmetries in three-dimensional higher-spin gauge theories
+Bethe Ansatz for Yangian Invariants: Towards Super Yang-Mills Scattering Amplitudes
+Merlin cluster - report for the BAR
+Edoardo Amaldi erfolgreich an ISS angedockt
+Bounds on the force between black holes
+A sharp lower bound on the mean curvature integral with critical power for integral varifolds
+Finite temperature quantum field theory in the heat kernel method
+NR/HEP: roadmap for the future
+A first search for a stochastic gravitational-wave background from ultralight bosons
+Matter imprints in waveform models for neutron star binaries: tidal and self-spin effects
+Short gamma-ray bursts from binary neutron star mergers: the time-reversal scenario
+Interspacecraft link simulator for the laser ranging interferometer onboard GRACE Follow-On
+Matter effects on binary neutron star waveforms
+A new three-dimensional general-relativistic hydrodynamics code
+A (0 2) Mirror Map
+Charges for linearized gravity
+Scalar heat kernel with boundary in the worldline formalism
+Black-hole normal modes: A WKB approach. III. The Reissner-Nordström black hole
+Generalized Bohr-Sommerfeld formula for Schwarzschild black hole normal modes
+String-inspired BCJ numerators for one-loop MHV amplitudes
+NA
+Sub-pm root Hz(-1) non-reciprocal noise in the LISA backlink fiber
+Toda chain from the kink-antikink lattice
+Higher spin gauge fields and extended Kac-Moody symmetries
+On the Bohr-Sommerfeld formula for black hole normal modes
+Resonant laser power build-up in ALPS—A “light shining through a wall” experiment
+Orbifolded Konishi from the Mirror TBA
+A Swendsen-Wang update algorithm for the Symanzik improved sigma model
+A Quantum Affine Algebra for the Deformed Hubbard Chain
+Nonlinear Kaluza-Klein theory for dual fields
+Towards metric-like higher spin gauge theories in three dimensions
+Stability for linearized gravity on the Kerr spacetime
+A no-hair test for binary black holes
+Covariant conserved currents for scalar-tensor Horndeski theory
+Sharp asymptotics for Einstein-lambda-dust flows
+Accuracy of binary black hole waveform models for aligned-spin binaries
+Romans-mass-driven flows on the D2-brane
+A Yang-Mills field on the extremal Reissner-Nordström black hole
+MERA as a holographic strange correlator
+Berends-Giele currents in Bern-Carrasco-Johansson gauge for F^3- and F^4-deformed Yang-Mills amplitudes
+Optical testbed for the LISA phasemeter
+mtDNA makes a U-turn for the mitochondrial nucleoid
+TFAM forces mtDNA to make a U-turn.
+NA
+Parkinson's Disease: Mitochondria Parked at the ER Hit the Snooze Button
+Ageing as a risk factor for ALS/FTD
+Mansim a lost language of the Bird's Head
+The Eastern bird's head languages
+Language and mind: Let's get the issues straight!
+Two ways of looking at a Mangetti grove
+LEXUS: A web based lexicon tool
+[Review of the book Malinowski: Odyssey of an anthropologist 1884-1920 by Michael Young]
+Where to look for the morals in markets?
+zBrac—A multilanguage tool for z-Tree
+Empirical Methods for the Law
+Empirical Methods for the Law
+“Begin at the beginning”. Lawyers and Linguists Together in Wonderland
+A currency board for EMU outsiders
+Editorial: Empirical Methods for the Law
+Linking the fields
+Layering-related linear features on comet 67P
+An iron snow dynamo in Ganymede's core
+A BCool magnetic snapshot survey of solar-type stars
+Erratum: A detailed census of variable stars in the globular cluster NGC 6333 (M9) from CCD differential photometry
+ROSETTA lander Philae - soil strength analysis
+Flow instabilities in the wide-gap spherical Couette system
+A closer look at a coronal loop rooted in a sunspot umbra
+Measuring Organic Matter with COSIMA on Board Rosetta
+A binary main-belt comet
+Summer fireworks on comet 67P
+A new constraint on mean-field galactic dynamo theory
+Lake Magadi cherts (southern Kenya Rift Valley) - a modern taphonomic analog for habitats on the early Earth
+Sunspot areas and tilt angles for solar cycles 7-10
+Solar Cycle 25: Another Moderate Cycle?
+Effect of guide field on three-dimensional electron shear flow instabilities in electron current sheets
+Planetary magnetic fields
+Mapping Saturn's Night Side Plasma Sheet Using Cassini's Proximal Orbits
+A solar-like magnetic cycle on the mature K-dwarf 61 Cygni A (HD 201091)
+A method for inverting the touchdown shock of the Philae lander on comet 67P/Churyumov-Gerasimenko
+The Solar cycle: looking forward
+Space-qualified laser system for the BepiColombo Laser Altimeter
+How to park a hot Jupiter at 0.05 AU around a sun-like star for billions of years
+67P Coma Dust Particle Tracking: A Quick Overview
+Haze at Ocator crater on dwarf planet Ceres
+A New Active Asteroid 313P/Gibbs
+Rosetta - the Comet Chaser
+The Attorney General Looks Abroad (Op-Ed)
+Beyond the State - Rethinking Private Law
+A domain-specific language and editor for parallel particle methods
+Active sites on graphene-based materials as metal-free catalysts
+Skin Langerhans cells sense the human pathogen Staphylococcus aureus through the C-type lectin receptor langerin (CD207)
+Carbon-doped BN nanosheets for metal-free photoredox catalysis
+Organized films
+Carbohydrate-Based Vaccines
+More than Just Sweet
+A Cu(ii) metal-organic framework as a recyclable catalyst for ARGET ATRP
+Submicron-Lubricant Based on Crystallized Fe3O4 Spheres for Enhanced Tribology Performance
+Carbon aerogels from bacterial nanocellulose as anodes for lithium ion batteries
+Freeze-thaw cycles induce content exchange between cell-sized lipid vesicles
+Hadean pre-biotic Photosynthesis and Enzyme-like Heterogeneous Catalysts: Mimicking a state we do not know
+The giant keyhole limpet radular teeth: a naturally-grown harvest machine
+A novel methyltransferase from the intracellular pathogen Plasmodiophora brassicae methylates salicylic acid
+A cytochrome P450 from juvenile mustard leaf beetles hydroxylates geraniol a key step in iridoid biosynthesis
+A latex metabolite benefits plant fitness under root herbivore attack
+Optimized trap lure for male Melolontha cockchafers
+NA
+A role for calmodulin-like proteins in herbivore defense path-ways in plants
+A flux capacitor for moth pheromones
+Fungi associated with beetles dispersing from dead wood – Let's take the beetle bus!
+Dehydrogenase genes in the ectomycorrhizal fungus Tricholoma vaccinum: A role for Ald1 in mycorrhizal symbiosis
+Blumenols as shoot markers for root symbiosis with arbuscular mycorrhizal fungi
+A genome befitting a monarch
+A carbon–carbon hybrid – immobilizing carbon nanodots onto carbon nanotubes
+A sintering model for plasma-sprayed zirconia TBCs. Part I: Free-standing coatings
+A force-based protein biochip
+Bulbous gold–carbon nanodot hybrid nanoclusters for cancer therapy
+A radical choreography : make one get one free
+[no title]
+A millimetre-wave redshift search for the unlensed HyLIRG HS1700.850.1
+Towards a Quality Metric for Dense Light Fields
+A PTAS for Euclidean TSP with Hyperplane Neighborhoods
+How long do older Americans work?
+A framework for benchmarking land models
+Influx of African biomass burning aerosol during the Amazonian dry season through layered transatlantic transport of black carbon-rich smoke
+NA
+A plant growth form dataset for the New World
+Changes in extreme sea-levels in the Baltic Sea
+Dimethyl sulfide in the Amazon rain forest
+A global method for calculating plant CSR ecological strategies applied across biomes world-wide
+Multiple greenhouse-gas feedbacks from the land biosphere under future climate change scenarios
+A global fine-root ecology database to address below-ground challenges in plant ecology
+The global carbon budget 1959-2011
+Modelling the global carbon cycle
+Law Reviews: A Foray through a Strange World
+If the Bible Were Bluebooked
+Latin for Lawyers
+Theory for Baryon Number and Dark Matter at the LHC
+The GCT camera for the Cherenkov Telescope Array
+New Distant TeV Blazars: Pushing the VHE gamma-ray Horizon
+Latest Results on Pulsar Wind Nebulae on the TeV Energy Regime
+New Distant TeV Blazars: Pushing the VHE gamma-ray Horizon
+A matterless double slit
+Prospects for three-body Higgs boson decays into extra light scalars
+Constraints on a hadronic model for unidentified off-plane galactic gamma-ray sources
+Finding short GRB remnants in globular clusters: the VHE gamma-ray source in Terzan 5
+TARGET 5: A new multi-channel digitizer with triggering capabilities for gamma-ray atmospheric Cherenkov telescopes
+Two-Loop Bethe logarithms for higher excited S levels
+The future ground-based gamma-ray observatory CTA
+A Non-Destructive Beam Monitoring System Based on an LTS-SQUID
+Borexino's search for low-energy neutrino and antineutrino signals correlated with gamma-ray bursts
+One-loop electron self-energy for the bound-electron g factor
+The Gamma-ray Cherenkov Telescope for the Cherenkov Telescope Array
+HESS J1826-130: A Very Hard gamma-Ray Spectrum Source in the Galactic Plane
+Primate thalamus: more than meets an eye
+Azobenzene-Based Photoswitches for the Control of the Voltage-Gated Proton Channel Hv1
+Interlocked DNA topologies for nanotechnology
+Calcium in the heart: when it's good it's very very good but when it's bad it's horrid
+Wave-packet dynamics on Chern-band lattices in a trap
+Nonlinear nano-scale localized breather modes in a discrete weak ferromagnetic spin lattice
+Born in weak fields: below-threshold photoelectron dynamics
+Floquet-Bloch operator for the Bose-Hubbard model with static field
+Pairing-induced kinetic energy lowering in doped antiferromagnets
+A Field Guide to Spin Liquids
+Body size-dependent energy storage causes Kleiber's law scaling of the metabolic rate in planarians
+The global build-up to intrinsic edge localized mode bursts seen in divertor full flux loops in JET
+How important is the seizure onset zone for seizure dynamics?
+QUANTUM PHYSICS Attoclock and tunnelling time
+Multi-particle break-up near threshold
+Active matter beyond mean-field: Ring-kinetic theory for self-propelled particles
+Quasiperiodic magnetic chain as a spin filter for arbitrary spin states
+Disordered flat bands on the kagome lattice
+Attoclock revisited on electron tunnelling time
+Breathers in one-dimensional nonlinear thermalized lattice with an energy gap
+Majorana bound states in the finite-length chain
+Rothenbücher Karl
+Authenticae
+Theodor Fontane im Medaillenbild
+Anhang/Nachwort
+NA
+Claudia Chang. Rethinking prehistoric Central Asia: shepherds farmers and nomads. 2018. Abingdon &amp; New York: Routledge; 978-1-138-73708-2 £105.
+Wetland birds
+West Side Story: Bulawayo's Songsters look to the west
+Alpine birds
+A genome-wide set of 106 microsatellite markers for the blue tit (Cyanistes caeruleus)
+Optimized trap lure for Melolontha cockchafers
+Hipposideros lamottei Lamotte's leaf-nosed bat
+Macrophyte-associated macroinvertebrates as an important food source for wintering waterbirds at Lake Constance
+Fringe for foraging? Histology of the bristle-like hairs on the tail membrane of the gleaning bat Myotis nattereri
+Rhinolophus maclaudi Maclaud's horseshoe bat
+Hipposideros cyclops Cyclops leaf-nosed bat
+Nycteris arge Bates's slit-faced bat
+A tropical bird can use the equatorial change in sunrise and sunset times to synchronize its circannual clock
+Vogelwarte Rossitten - ornithology on the Courish Spit between 1901-1944
+Does hatching failure breed infidelity?
+Avian sleep
+A bird's eye view of sleep
+Long-term memory for a life on the move
+Taenioconger klausewitzi a new garden-eel from the Galápagos
+Complex bird clocks
+A Stone-curlew Burhinus oedicnemus in a flock of Senegal Thick-knees B. senegalensis in Senegal
+Age-based plumage changes in the Lance-tailed Manakin: A two-year delay in plumage maturation
+When a bird is tired from singing: A study of drift during the dawn chorus
+Tadarida congica Congo free-tailed bat
+Scotonycteris ophiodon Pohle's fruit bat
+Phytohemagglutinin-induced skin swelling in birds: Histological support for a classic immunoecological technique
+Hipposideros marisae Aellen's leaf-nosed bat
+Marabou storks wash dung beetles
+Female choice for male motor skills
+Annual rhythms that underlie phenology: Biological time-keeping meets environmental change
+Does urban life change blood oxidative status in birds?
+rangeMapper: A platform for the study of macroecology of life-history traits
+Nature - a model for human behaviour?
+A royal penguin eudyptes schlegeli in the falkland islands?
+A neotropical forest bird can measure the slight changes in tropical photoperiod
+Antbirds parasitize foraging army ants
+Why do sloths poop on the ground?
+Parasites flicking the NPY gene on the host's switchboard: why NPY?
+A gentler method to raise melatonin levels in birds
+Tadarida aloysiisabaudiae Duke of Abruzzi free-tailed bat
+Gazetteer of localities for small mammal surveys
+Male songbird indicates body size with low-pitched advertising songs
+A three-dimensional MRI atlas of the zebra finch brain in stereotaxic coordinates
+Tracking sharks without teeth: A non-invasive rigid tag attachment for large predatory sharks
+Ducks as sentinels for avian influenza in wild birds
+Repeatability for Gaussian and non-Gaussian data: A practical guide for biologists
+Ostriches sleep like platypuses
+A brief report on birds observed on Madeira Portugal March 31 - April 14 1987
+Rhinolophus hillorum Upland horseshoe bat
+New tracking philosophy for birds
+Birds and Anthropogenic Noise: Are Urban Songs Adaptive?
+Breeding biology of the Island Canary Serinus canaria (Aves: Fringillidae) on the Desertas Island Ilhéu Chão
+Is there a universal mtDNA clock for birds?
+Unresolved Gamma-Ray Sky through its Angular Power Spectrum
+Sv-map between Type I and Heterotic Sigma Models
+Current unknowns in the three neutrino framework
+How mirrors make minds
+Obesity: Genetics meets brain
+Myeloarchitecture — A Window for MRI
+Slab-selective BOLD-corrected VASO (SS-VASO) in human brain at 7T
+Hypercapnia-induced and stimulus-induced changes in cerebral blood volume (CBV) in human at 7T
+7T MRI - A game-changer for systems neuroscience
+A new SERT-tracer for SPECT: Kinetic data on [123I]-ADAM in healthy human subjects
+Advanced Matlab (4-day workshop)
+Grid cells as a gateway towards clinic and society
+Searching for language in the brain
+A transceive RF coil for imaging tissue specimen at 3T based on PCB design
+A 1H-31P array coil for human brain spectroscopy at 3T
+A biological take on early learning
+A double-row transmit array with broadband sheath-wave damping for 7T human head imaging
+All cerebellum all the time
+A method for multi-mode multi-load and multi domain optimization of a multi-channel near-field RF transmitter
+Analysis of transmit magnetic field homogeneity for a 7T multi-channel MRI loop array
+Layer-dependent calibrated BOLD in human M1
+Plasticity in the human brain
+Meeting the brain on its own terms
+Influence of shield distance on RF transmit performance for a 7T multi-channel MRI loop array
+How the brain repairs stuttering
+How mirrors make minds
+Balanced feed lines with bridged shield gaps for RF coil arrays
+Cortical lamina-specific blood volume changes in the human brain
+7T MRI: A game-changer for human neuroscience
+Advanced Matlab (3-day workshop)
+Music feedback
+What we talk about when we talk about the default-mode network
+Myeloarchitecture - A window for MRI
+NA
+Exploring grey matter changes during sensorimotor training: A longitudinal study
+[no title]
+Hypercapnia-induced and stimulus-induced changes in cerebral blood volume (CBV) in human at 7T
+Myeloarchitecture - A window for MRI
+Watching the brain think – How does Magnetic Resonance Imaging work?
+Wie könnte Stress zum Schlaganfall führen? [How could stress lead to stroke?]
+Free Software Tools for Atlas-based Volumetric Neuroimage Analysis
+Alzheimer-Krankheit. Ein neuropsychologisch-verhaltenstherapeutisches Manual [Alzheimer's disease. A neuropsychological-behavior therapeutic manual]
+A transceive RF coil for imaging tissue specimen at 3T based on PCB design
+Validating S100B as biomarker for the human brain - A combined serum gene expression and MRI study
+Young children want to see others get the help they need
+Exploring the impact of iatrogenic factors on global brain changes in chronic schizophrenia: A 13-years follow-up
+Two systems for thinking about other people’s thoughts in the developing brain
+Changes in human brain structure immediately after balance training: A 7 Tesla MRI study
+7T MRI: A game-changer for human neuroscience
+Pathways for Prosody
+Mirror and mirror games. A framework for the social making of human minds
+Slab-selective BOLD-corrected VASO (SS-VASO) in human brain at 7T
+ASL as a substitute for [18F]FDG? - A simultaneous brain PET/MRI study
+A 1H-31P Array Coil for Human Brain Spectroscopy at 3 T
+7T MRI: A game-changer for human neuroscience
+Layer-dependent calibrated BOLD in human M1
+How the human brain recognizes voices [Keynote lecture]
+Syntax in the human brain
+A New Synthetic Strategy for Magnetic Metal Bis(dithiolene) Based Conductors
+Antiferromagnetic ordering between unstable 4f shells in CeAl2
+CeCu2: a new Kondo lattice showing magnetic order
+Soft X-ray magnetic circular dichroism study on Gd-doped EuO thin films
+Ethylene is involved in strawberry fruit ripening in an organ-specific manner.
+Ready steady go! A sugar hit starts the race to shoot branching
+Apocarotenoids: A New Carotenoid-Derived Pathway
+A fluorometric assay for trehalose in the picomole range
+Histones Predate the Split Between Bacteria and Archaea
+3-Nitrophthalic Anhydride as Blocking Agent in Merrifield Polypeptide Syntheses
+The blue-collar brain
+New data on the radiocarbon chronology of the Stretleskayan at Kostenki (Voronezh Central Russia)
+Towards a Linguistic Linked Open Data cloud: The Open LinguisticsWorking Group
+A liquid jet setup for x-ray scattering experiments on complex liquids at free-electron laser sources
+Label-free protein assay based on a nanomechanical cantilever array
+Brief bursts self-inhibit and correlate the pyramidal network
+ADLOC: an aptamer-displacement assay based on luminescent oxygen channeling
+A double-stranded DNA rotaxane
+New chemotypes for wALADin1-like inhibitors of delta-aminolevulinic acid dehydratase from Wolbachia endobacteria
+Label-free impedimetric aptasensor for lysozyme detection based on carbon nanotube-modified screen-printed electrodes
+A trifluoromethylphenyl diazirine-based SecinH3 photoaffinity probe
+A 50-Year Long Lesson
+Copper Colloid-Based Catalysts for Methanol Synthesis
+A guest-free germanium clathrate
+A thermoelectric generator based on an n-type clathrate and a p-type skutterudite unicouple
+A DNAzyme based label-free detection system for miniaturized assays
+Matrin 3 binds and stabilizes mRNA
+Model-based gene set analysis for Bioconductor
+Nonuniform runaway air-breakdown
+An ESA study for the search for life on Mars
+The MECA Payload as an Exobiology Laboratory on the MSP 2001 Lander
+A new Sun: Probing solar plasmas in the EUV light from SUMER on SOHO
+A case study on middle atmospheric water vapor transport during the February 1998 stratospheric warming
+An ESA study for the search for life on Mars
+Three-dimensional current sheet tearing in the Earth's magnetotail
+Sharp boundary between the inner magnetosphere and active outer plasma sheet
+Kilo-Gauss magnetic fields in three DA white dwarfs
+MIRO: Microwave Instrument for Rosetta Orbiter
+Kinetic ballooning/interchange instability in a bent plasma sheet
+Are there field-free gaps near τ = 1 in sunspot penumbrae?
+GREAT: the German first light heterodyne instrument for SOFIA
+COSIMA: High Resolution Time-of-Flight Secondary Mass Spectrometer for the Analysis of Cometary Dust Particles Onboard ROSETTA
+Azimuthal plasma flow in the Kronian magnetosphere
+Mean-field view on geodynamo models
+Where the Granular Flows Bend
+Plasma sheet thickness during a bursty bulk flow reversal
+Quiet Sun magnetic fields observed by Hinode: Support for a local dynamo
+Bow shock 'splitting' in bi-ion flows
+Plans for the EISCAT Svalbard Radar
+Multiple-ion waves behind shocks
+Quiet-time 1 MeV/nucleon fluxes as observed by the EPAC instrument on board Ulysses
+On the Bernstein-Landau paradox
+The ``Long Wavelength Radar'' on the Mars-94 Orbiter
+German Data Center for the Solar Dynamics Observatory: A model for the PLATO mission?
+A plasmapause-like density boundary at high latitudes in Saturns magnetosphere
+Venus as a more Earth-like planet
+Substorms in the inner plasma sheet
+Recent Airborne Heterodyne Receivers for the Submillimeter-wave Range
+Comparisons between strong HF backscatter VHF radar aurora
+Slow-mode shock candidate in the Jovian magnetosheath
+Long-Term Magnetic Field Monitoring of the Sun-Like Star ξ Bootis A
+Energetic protons near the plasma sheet boundary
+Spot sizes on Sun-like stars
+Low-energy charged particle environment at Jupiter: A first look
+How large is the Sun's total magnetic flux
+Solar-blind diamond detectors for LYRA the solar VUV radiometer on board PROBA II
+A pulsating auroral X-ray hot spot on Jupiter
+A two-channel focal reducer for small (diameter gt;= 1 m) F/8 telescopes
+Very low frequency array on the lunar far side
+Quiet-Sun inter-network magnetic fields observed in the infrared
+On the drift mechanism for energetic charged particles at shocks
+An ESA study for the search for life on Mars.
+The ``Long wavelength radar'' on the Mars-94 orbiter
+Near Infrared Spectrometer SIR-2 on Chandrayaan-1
+A deep dynamo generating Mercury's magnetic field
+Cassini Finds an Oxygen-Carbon Dioxide Atmosphere at Saturn's Icy Moon Rhea
+Diamond detectors for LYRA the solar VUV radiometer on board PROBA2
+Microwave Instrument for the Rosetta Orbiter (MIRO)
+Salambo 3D: A physical approach for short-term flux modelling
+Magnetic flux in the internetwork quiet Sun
+On type 3 auroral VHF coherent radar backscatter
+Magnetic field overshoots in the Martian bow shock
+Magnetic Loops in the Quiet Sun
+Irradiation damage tests on backside-illuminated CMOS APS prototypes for the Extreme Ultraviolet Imager on-board Solar Orbiter
+A microwave radiometer/spectrometer for the ROSETTA orbiter
+The earth's ionosphere: A wall-less plasma laboratory
+Field draping around an interplanetary magnetic cloud with a shock wave
+Galileo Energetic Particle Detector (EPD) anisotropies during plasma sheet crossings at Jupiter
+SUNRISE: A 1-m balloon borne solar telescope
+Lower hybrid waves in the solar wind
+MIRO: Microwave Instrument for Rosetta Orbiter
+Craters smooth terrains flows and layering on the comet nuclei
+A wave packet analysis method for vertical energy flux measured by VHF radar
+MOA-2009-BLG-387Lb: a massive planet orbiting an M dwarf
+A sheet-metal geodynamo
+A new microwave heterodyne spectrometer backend: The ASIC-CTS
+Wide bandgap EUV and VUV imagers for the Solar Orbiter
+Anti-planetward auroral electron beams at Saturn
+Mean-field view on geodynamo models
+Large-scale magnetic field of the G8 dwarf ξ Bootis A
+H+ and He2+ heating at the Earth's bow shock
+The MECA Payload as a Dust Analysis Laboratory on the MSP 2001 Lander
+HF induced airglow: double patches!
+Methyl chloride in the stratosphere
+RoLand: A long-term lander for the Rosetta mission
+A method for shock determination and classification
+Bright plumes and dark lanes as observed in Mg X 625 Å and N V 1239 Å in the solar polar corona
+An essay on terminology myths and known facts: Solar transient-flare-CME-driver gas-piston-BDE-magnetic cloud-shock wave-geomagnetic storm
+The geodynamo as a bistable oscillator
+A gas-lens telescope
+Microwave Instrument for the Rosetta Orbiter (MIRO)
+On the Force-free Nature of Photospheric Sunspot Magnetic Fields as Observed from Hinode (SOT/SP)
+Long-term magnetic field monitoring of the Sun-like star ξ Bootis A
+A new upper bound for the free energy of the Hubbard model based on the cluster approach
+A Fabry-Perot Etalon Filter System for a Visible Light Imager and Magnetograph on-board Solar Orbiter
+GREAT: the German first light heterodyne instrument for SOFIA
+Energetic electron signatures in an active magnetotail plasma sheet
+Plasma flows guided by strong magnetic fields in the solar corona
+Plasma transport in the magnetotail lobes
+Polarimetry in planetary science - A step forward with the VLT and a need for the ELT's
+Modelling the Sun's open magnetic flux
+A much lower density for the transiting extrasolar planet WASP-7
+ASTEROID: A 64 channel ASIC for source follower readout of DEPFET arrays for X-ray astronomy
+Modeling the Sun's open magnetic flux and the heliospheric current sheet
+A search for ethane on Pluto and Triton
+Modelling circumbinary gas flows in close T Tauri binaries
+E-type Asteroid (2867) Steins as Imaged by OSIRIS on Board Rosetta
+Radiocarbon dates from the Oxford AMS system: Archaeometry datelist 25
+Is Rafflesia an endothermic flower?
+Hypothesized climate forcing time series for the last 500 years
+JRAS isotope reference: A generalized VPDB scale anchor for CO2 in air?
+Soil-atmosphere gas exchange
+ESCOBA - A European multidisciplinary study of the global carbon cycle in ocean atmosphere and biosphere ; synthesis report
+Radiocarbon dates from the Oxford AMS system: Archaeometry datelist 26
+After two decades a second anchor for the VPDB δ13C scale
+Noosphere
+Walk Tall: A look up at the Zotino Tall Tower Observatory
+Forage yield-based carbon storage in grasslands of China
+Old-growth forests as global carbon sinks
+Uncertainties in up-scaling N2O flux from field to 1 degrees X 1 degrees scale: A case study for Inner Mongolian grasslands in China
+Antarctic circumpolar wave impact on marine biology: A natural laboratory for climate change study
+C-quest in the Amazon basin
+Tracking carbon flow in a 2-week-old and 6-week-old stream biofilm food web
+An outlook on the Sub-Saharan Africa carbon balance
+High mass X-ray binaries as a SFR indicator
+Sub-100-fs 1.87 GHz mode-locked fiber laser using stretched-soliton effects
+Codeword Stabilized Quantum Codes for Asymmetric Channels
+Twist-induced guidance in coreless photonic crystal fiber: A helical channel for light
+Freeze-thaw cycles induce content exchange between cell-sized lipid vesicles
+Cell-Free Protein Synthesis: Chassis toward the Minimal Cell
+Mind the gaps! Towards an ethical framework for genome editing
+Ultrathin Block Copolymer/Titanium Laminates - a Tool for Nanolithography
+Sub-10 nm Gold Nanoarrays for Tethering Single Molecules
+Inorganic-Polymer Micellar Hybrid Systems - A Tool for Nanolithography
+Psychotherapie morgen - Umbruch oder Abbruch?
+A Large-Area Transferable Wide Band Gap 2D Silicon Dioxide Layer
+A traveling-wave Zeeman decelerator
+Organic thin films on ZnO surfaces
+A Small World
+A Common Energy Zero for Total Energies
+CH2 Stabilized at Steps on Ru(0001) by Coadsorbates
+A Fresh Look at an Old Nano-Technology: Catalysis
+Syngas-to-Methanol: New Insights into an old Process
+Obituary for Walter Kohn (1923–2016)
+A Local View on Cu/ZnO/Al2O3 Catalysts for Methanol Synthesis
+A Toast to Jan Peter Toennies
+Wie wird was wann wo gezählt? Open Access-Statistik
+Cortical maps: a role for astrocytes?
+Primate Thalamus: More Than Meets an Eye
+A new target for caffeine in the developing lung: endoplasmic reticulum stress?
+Novel mechanism for exercise-induced angiogenesis in the brain
+Histamine H-1 receptors are sensors for fluid shear stress in the endothelium
+Guidelines for morpholino use in zebrafish
+New Rubric on vascular Biology - Network for Basic Research
+A molecular mechanism for Wnt ligand-specific signaling
+Swamp gorillas in northern Congo
+Wild forest elephants shake down fruit and leaves from trees
+Are number gestures easier than number words for preschoolers?
+Life stages put in words: Morning four; noon two; evening three?
+The hummingbird's tongue: A selfassembling capillary syphon
+Are alpine lake outlets less harsh than other alpine streams?
+Phylogeography of the Rickett's big-footed bat Myotis pilosus (Chiroptera: Vespertilionidae): a novel pattern of genetic structure of bats in China
+A pathway for Parkinson's Disease LRRK2 kinase to block primary cilia and Sonic hedgehog signaling in the brain.
+Freeze-thaw cycles induce content exchange between cell-sized lipid vesicles
+A dynamic view on the brain's language comprehension network
+Another thing the native language does for you
+Beyond the language given
+Birds and brains - what songbirds tell us about language
+The brain at work
+The language-ready brain
+A treebank study of clausal coordinate ellipsis in spoken and written language
+Language Archiving at the MPI for Psycholinguistics
+Language: Can we learn from what animals cannot do?
+How children learn language [invited talk]
+Getting the rhythm for infant language learning
+Linguistic field methods
+How words categorize the human body
+Beyond the language given
+Day[s] that I have loved ... but the times they are a-changin' - 30 years of anthropological-linguistic field research on the Trobriand Islands in Papua New Guinea [invited plenary talk]
+Brains and birdsong - What birds can tell us about human language
+How the brain learns a new language
+Manual for the field season 2001
+Day[s] that I have loved ... but the times they are a-changin' - 30 years of anthropological-linguistic field research on the Trobriand Islands in Papua New Guinea [invited lecture]
+A nuclear weapons convention: framework for a nuclear weapon free world
+Modeling biological-physical feedback mechanisms in marine systems
+Maud Rise - a snapshot through the water column
+A modified monthly degree-day model for evaluating glacier runoff changes in China. Part I: Model development
+HI4PI: A full-sky H I survey based on EBHIS and GASS
+First Supra-THz Heterodyne Array Receivers for Astronomy With the SOFIA Observatory
+The LOFAR long baseline snapshot calibrator survey
+Rebrightening of the changing look Seyfert galaxy NGC 1566
+A new route towards merging massive black holes
+Inner jet kinematics and the viewing angle towards the {γ}-ray narrow-line Seyfert 1 galaxy 1H 0323+342
+Broadband variability study of the Gamma-Ray bright Blazar 3C273
+A 1.3 cm line survey toward Orion KL
+A Nearly Naked Supermassive Black Hole
+A new view on the M 87 jet origin: Turbulent loading leading to large-scale episodic wiggling
+ARGOS at the LBT. Binocular laser guided ground-layer adaptive optics
+LEAP: the Large European Array for Pulsars
+Variable Reddening and Broad Absorption Lines in the Narrow-line Seyfert 1 Galaxy WPVS 007: An Origin in the Torus
+The millimeter IRAM-30 m line survey toward IK Tauri
+The UTMOST: A Hybrid Digital Signal Processor Transforms the Molonglo Observatory Synthesis Telescope
+Parkes Pulsar Timing Array constraints on ultralight scalar-field dark matter
+WISPDMX: A haloscope for WISP Dark Matter between 0.8-2 μeV
+A Nearly Naked Supermassive Black Hole
+A Multi-wavelength Polarimetric Study of the Blazar CTA 102 during a Gamma-Ray Flare in 2012
+A search for ionized jets towards massive young stellar objects
+Zooming into γ-ray loud galactic nuclei: broadband emission and structure dynamics of the blazar PKS 1502+106 and the narrow-line Seyfert 1 1H 0323+342
+A 1.3 cm line survey toward IRC +10216
+What powers the radio-loud narrow-line Seyfert 1 galaxy RX J2314.9+2243?. A view onto its central engine from radio to X-rays
+Magnetic field in a young circumbinary disk
+SDSS J211852.96-073227.5: a new γ-ray flaring narrow-line Seyfert 1 galaxy
+A common molecular basis for three inherited kidney stone diseases [Letter to Nature]
+Hold that thought
+How native speakers see the light
+A tailor-made database for language teaching material
+Daphnia's filters are not solid walls
+A Microwave-Dual-Interferometer for Plasma Diagnostics
+Butterfly-like Algorithms for GASPI Split Phase Allreduce
+When librarians rule the world: The skills and tools we need to thrive in a web 2.0 world - Kurzbericht über einen Workshop
+An Analytical Model for Software Defined Networking: A Network Calculus-based Approach
+Noble gases in three lunar meteorites from Oman
+A seasonal air transport climatology for Kenya
+Ozone in the remote marine boundary layer: A possible role for halogens
+Fire watch
+A global geochemical database structure for rocks
+A revised nitrogen budget for the Arabian Sea
+A new DOAS instrument for balloon-borne trace gas studies
+Natural NaAlSi3O8-hollandite in the shocked Sixiangkoou meteorite.
+Global change: It's not a gas
+Subbands in inversion layers on NGS for E_gap --> 0
+Calculated Surface Geometries Photothresholds and Schottky-Barrier Heights for Alkalis Adsorbed on GaAs(110)
+Thick sodium overlayers on GaAs(110)
+Feedback loops for chaos in activator-inhibitor systems
+Metal-free and metalized field-effect transistors for electrical recording in brain slices
+Evaporated carbon stabilizes thin frozen-hydrated specimens
+Structure of the Protein Surface Layer of Acetogenium kivui
+A photocontrolled β-hairpin
+Pharmakotherapie des Asthma bronchiale
+Hsp90 enables Ctf13p/Skp1p to nucleate the budding yeast kinetochore
+Mind the seafloor
+A eubacterial origin for the human tRNA nucleotidyltransferase?
+NA
+Learning gene network structure from time laps cell imaging in RNAi Knock downs
+Chromosome walking towards the Ror1 (Required for mlo resistance 1) locus in barley (Hordeum vulgare L.)
+A PHABULOSA/Cytokinin Feedback Loop Controls Root Growth in Arabidopsis
+Arabidopsis thaliana as Model for Studies on the Bacterial Root Microbiota
+Germline variants in IKZF1 ARID5B and CEBPE as risk factors for adult- onset acute lymphoblastic leukemia: an analysis from the GMALL study group
+Notes on Balangao grammar
+A grammar of Kuuk Thaayorre
+Proceedings from the seventh workshop on American indigenous languages : April 30-May 2 2004
+Amyloid-β-sheet formation at the air-water interface.
+Temperature- and time-resolved X-ray scattering at thin organic films
+Regular stripe patterns in skeletonized Langmuir-Blodgett films of arachidic acid.
+Contact angles on heterogeneous surfaces - a new look at Cassie’s and Wenzel’s laws
+Mechano-sorptive creep in wood fibres
+Langmuir Blodgett films.
+Iron-clad fibers : a metal-based biological strategy for hard flexible coatings
+Hydrodynamic lift on bound vesicles.
+Forces between liquid interfaces
+A nano-scale study on film stability
+Lamellar mesophases in polyacrylonitrile: A synchrotron small- angle X-ray scattering study.
+Microvoids in polyacrylonitrile fibers: A small-angle X-ray scattering study.
+Strongly charged polyelectrolyte brushes: A molecular dynamics study.
+Debye-Hückel theory for slab geometries.
+Structure of 1-ethyl-3-(heptamethyltri-siloxan-3-yl)pyrroline hydrochloride C13H32NO2Si3+Cl-
+New polymeric stabilizers for waterborne coatings
+Microgels - colloidal models for the cross-linked state
+Rupture of thin wetting films on hydrophobic surfaces. Part II: fatty acid Langmuir-Blodgett layers on glass surfaces.
+A non-monotonic method for large-scale non-negative least squares
+A freely-moving monkey treadmill model
+Learning Optimal Striking Points for A Ping-Pong Playing Robot
+A Random Riemannian Metric for Probabilistic Shortest-Path Tractography
+A Geometric Take on Metric Learning
+Task-based Grasp Adaptation on a Humanoid Robot
+her11 is involved in the somitogenesis clock in zebrafish
+When invaders meet locally adapted types: rapid moulding of hybrid zones between sculpins (Cottus Pisces) in the Rhine system
+A Hox class 3 orthologue from the spider Cupiennius salei is expressed in a Hox-gene like fashion
+Hybridogenetic frogs on an evolutionary dead end road
+A plea for DNA taxonomy
+Two orthodenticle-related genes in the short-germ beetle Tribolium castaneum
+Light from the dark.
+Stabilized plasmid-lipid particles for systemic gene therapy.
+Surface roughness changes on a hot-dipped galvanized sheet steel during deformation at low stain levels
+Roughness-induced flow instability : A Lattice Boltzmann study
+Metal-adlayer-stabilized ZnO(0001) sufaces: Towards a new growth mode for oxides
+NA
+Model study on the corrosion of magnesium-containing zinc coat on steel sheet
+What can EPR hyperfine parameters tell about the Si dangling bond? - A theoretical study
+How far do we get with the local equilibrium hypothesis?
+Kinetically stabilized ordering in AlGaN alloys
+Fine-structure infrared lines from the Cassiopeia A knots
+COSMOGRAIL - XVII. Time delays for the quadruply imaged quasar PG 1115+080
+A glucosinolate metabolism pathway in living plant cells mediates broad-spectrum antifungal defense
+All-cis-1 4 7 10-cyclododecatetraene - X-ray structure-analysis and photoelectron-spectrum
+A new type of modified brassinosteroids for enzyme-linked immunosorbent assay
+NA
+Why are there so few aphid clones?
+A cuckoo in wolves' clothing? Chemical mimicry in a specialized cuckoo wasp of the European beewolf (Hymenoptera Chrysididae and Crabronidae)
+A DNA virus infecting the marine brown alga Pilayella littoralis (Ectocarpales Phaeophyceae) in culture
+Further isoflavonoid metabolites from Millettia griffoniana (Bail)
+Acid-base-driven matrix-assisted mass spectrometry for targeted metabolomics
+On the odor of the Mediterranean seaweed Dictyopteris membranacea; New C11 hydrocarbons from marine brown algae - III.
+A quick method for isolating RNA from raw and ripe fleshy fruits as well as for co-isolating DNA and RNA from polysaccharide- and polyphenol-rich leaf tissues
+Power and energy scaling of Kerr-lens mode-locked thin-disk oscillators
+Tensor Network Methods in Many-body physics
+On M-theory
+A Virtual Data Grid for LIGO
+F-statistic search for white-dwarf binaries in the first Mock LISA Data Challenge
+A statistical veto method employing an amplitude consistency check
+Metric for gradient renormalization group flow of the worldsheet sigma model beyond first order
+Gauge-invariant coherent states for loop quantum gravity: I. Abelian gauge groups
+The Sugawara generators at arbitrary level
+A How-To for the Mock LISA Data Challenges
+Single-domain spectral method for black hole puncture data
+An All-Optical Trap for a Gram-Scale Mirror
+Analog phase lock between two lasers at LISA power levels
+Large N matrix field theories
+How Accurate is the Quantum String Bethe Ansatz?
+The first mock data challenge for LISA Pathfinder
+Gauge-invariant coherent states for loop quantum gravity: II. Non-Abelian gauge groups
+Not so fishy
+Angular momentum at the black hole threshold
+A note on the geometry of CHL heterotic strings
+A powerful hydrodynamic booster for relativistic jets
+Leon Lichtenstein's work on rotating fluids
+Was there a big bang?
+Late-time tails of a Yang-Mills field on Minkowski and Schwarzschild backgrounds
+The Hamiltonian Analysis for Yang-Mills Theory on RxS2
+Searching for Massive Black Hole Binaries in the first Mock LISA Data Challenge
+Liouville theory as a gauge theory
+New orthogonal body-fitting coordinates for colliding black hole spacetimes
+Einstein spaces as attractors for the Einstein flow
+礼物交换与村寨财富——曼班布朗人的礼物交换研究= Gifts and the Sharing of Village Wealth: A Case Study on a Bulang Village
+中国白族村落影像民族志——海印村= Image and Video Culture in Chinese Bai Villages---Haiyin Village
+A sixteenth-order polylogarithm ladder.
+A note on Reyes's theorem about triangles
+A trace formula for Jacobi forms.
+Singular Hecke-Shimura rings and Hecke operators on Siegel modular forms
+A note on the KAM-theorem for symplectic mappings
+Ramanujan to Hardy: from the first to the last letter. (Ramanujan an Hardy: Vom ersten bis zum letzten Brief.)
+New Whitney-type formulae for plane curves.
+Arithmetic on a quintic threefold
+Does there exist an arithmetic Kodaira-Spencer class?
+A surgery formula for the μ-invariant.
+Controlled algebraic K-theory a survey.
+A note on geodesics on ellipsoid.
+Caricatures of three-dimensional human heads: As we get older do we get more distinct?
+A Reynolds--uniform numerical method for Prandtl‘s boundary layer problem for flow past a wedge
+A four-channel hole-slotted phased array at 7 Tesla
+A 15-Channel receive array and 16 channel detunable transmit coil for human brain imaging at 9.4T
+Cerebro-cerebellar circuitry for body language reading
+Mycopter – Personal Aerial Vehicles: the next big game-changer?
+Personal Aerial Vehicles: the next big game-changer?
+Discrepancies between multi-electrode LFP and CSD phase-patterns: A forward modeling study
+Transceiver-Phased Arrays for Human Brain Studies at 7 T
+Towards Motor Skill Learning for Robotics
+The human brain as a large margin classifier
+A Kernel Method for the Two-sample Problem
+fMRI studies on causality in the human brain
+An Open-Source Hardware/Software Architecture for Quadrotor UAVs
+Blame the road ahead but not the fog for speeding
+A dynamic attractor network underlies operant learning in larval zebrafish
+Do we keep track of where we've been or what we've done?
+Change blindness: An event-related brain potential study
+A New Method for Constructing Artificial Neural Networks
+The brain as a whole
+A chimeric point-light walker
+B0 shimming for X-nuclei imaging at 7 T using 23Na B0 maps
+Optimized adiabatic spin-lock pulses for robust dynamic glucose enhanced MRI at 3T and 9.4T
+A Kernel Two-Sample Test
+Three-dimensional through-time radial GRAPPA for renal MR angiography
+Does the Wake-sleep Algorithm Produce Good Density Estimators?
+A unifying framework for robot control with redundant DOFs
+On the Pre-Image Problem in Kernel Methods
+You'll golf better if you think tiger has used your clubs
+Staying afloat on Neurath's boat: Heuristics for sequential causal learning
+Real-time gaze-tracking for freely-moving observers
+Real-time gaze-tracking for freely-moving observers
+What's new in Psychtoolbox-3?
+Auge hört mit!
+An fMRI task battery for assessing hemispheric language dominance in children
+Shortest-path kernels on graphs
+A 32‐channel multi‐coil setup optimized for human brain shimming at 9.4T
+fMRI studies on casualty in the human brain
+A kernel method for unsupervised structured network inference
+A triple-resonant RF coil setup for 1H 23Na and 39K MR imaging of the rat brain at 9.4T
+A BOLD window into brain waves
+A Nearest Neighbor Data Structure for Graphics Hardware
+Towards Simulating a Mid-size Stewart Platform on a Large Hexapod Simulator
+On the Wild Side (Buchkritik)
+Drivers' steering behavior when meeting another car
+A matching advantage for dynamic human faces
+A Primer on Kernel Methods
+An aryl-phosphonate appended macrocyclic platform for lanthanide based bimodal imaging agents
+A human brain network linking arousal to awareness
+Magnetization exchange between water and downfield metabolites in human brain at 9.4T
+CEST in the human brain at high and ultra-high fields
+A rigidified AAZTA-like ligand as efficient chelator for 68Ga radiopharmaceuticals
+Curvature-based Methods for Brain Network Analysis
+About the Ideal Receive Array for Human Head MRI
+A Kernel Method for the Two-Sample-Problem
+Overshoot Phenomena in Olfactory Bulb Layers in the Female American Mink
+A Three-Layered Coil Arrangement for Sodium Imaging of the Human Brain at 9.4T
+Wahrnehmung: Unser Zugang zur Welt [Perception: Our gateway to the world]
+An 8-Channel Transceive Head Coil Array for 7T
+Walking as the ultimate challenge for the multisensory brain
+The wake-sleep algorithm for unsupervised neural networks
+New Methods for the P300 Visual Speller
+MRI-guided robotic arm (MgRA) to target deep brain nuclei in vitro
+CCA based methods for data with non-instantaneous couplings
+Machine Learning for Motor Skills in Robotics
+Searching for language mechanisms in the brain
+A DHCP server for the local network
+Rats! What are they looking at?
+Rats! What are they looking at?
+Measuring workload during steering: A novelty-P3 study
+Visual backward masking in rats: A behavioral task for studying the neural mechanisms of visual awareness
+Natter: A Python Natural Image Statistics Toolbox
+UHF RF Array Coils for Body & Brain
+A 32-channel multi-coil shim setup optimized for the human brain pushing the limits of shimming at 9.4T
+The Minimum-Time Crashing Problem for the Dubins' Car
+Probe light inside the rat brain for single-vessel fMRI under 14T
+Policy Gradient Methods for Robotics
+A new methodology for robot controller design
+Occam's Razor
+A novel role of intrinsic astrocytic calcium spikes to mediate brain states through central/dorsal thalamic nuclei
+Thin-Plate Splines Between Riemannian Manifolds
+A Reynolds--uniform numerical method for Prandtl‘s boundary layer problem for flow past a plate with mass transfer
+How do general anaesthetics work?
+New Methods for the P300 Visual Speller
+A note on myeloarchitectonics
+A Microstrip Resonator for Animal MRI at 16.4T
+A Web-Based Probabilistic Tractography Database
+Optimized adiabatic spin-lock pulses for robust dynamic glucose enhanced MRI at 3T
+Multi-agent random walks for local clustering on graphs
+A Setup for multi-UAV hardware-in-the-loop simulations
+An Adaptive Haptic Aid Based on Pilot Performance
+Towards Robust Scene Analysis: A Versatile Mid-level Feature Framework
+Dynamic B0 shimming of the human brain at 9.4 T with a 16-channel multi-coil shim setup
+Localized B0 shimming based on 23Na MRI at 7 T
+Time-Of-Flight Angiography in Humans at 9.4T
+About the Ultimate SNR for Cylindrical and Spherical RF Arrays in a Realistic Human Head Model
+Learning as a key ability for Human-Friendly Robots
+Up the down staircase: next term Wayfinding strategies in multi-level buildings
+A short note on undirected fitch graphs
+Die SLICOT-Toolboxen für Matlab (The SLICOT Toolboxes for Matlab)
+A New Method for the Hamiltonian Eigenvalue Problem
+Entwurfsmethodik für Energiespeicher
+On the hybrid LQ-based control design for linear networked systems
+Droop-controlled inverter-based microgrids are robust to clock drifts
+A cell-free self-sustaining metabolic platform
+A new stability result for switched linear systems
+Power-to-Gas
+Biological methanation of hydrogen within biogas plants: A model-based feasibility study
+Index-Aware MOR for Gas Transport Networks
+A Robust Numerical Method for Optimal H∞ Control
+NA
+Durban Platform: way forward on pre-2020 ambition
+A Grid Middleware for Ontology Access
+A Goniometer for Ultra-High Vacuum
+Tokamak Transport Based on the Braginskii Model
+A Closed Cycle Iodine Laser
+Ferromagnetism in the Hubbard Model
+Profile Control with Lower Hybrid Waves on ASDEX
+Microwave Scattering on Plasma Waves
+On the Kinetic Alfven Wave
+Report on the 11th European Tokamak Programme Workshop
+The H-Mode in the ASDEX Tokamak
+Simplified Rescaling Method - Method B: 16. Meeting
+A Complete Neoclassical Transport Model for the Tokamak Scrape-Off Layer: 14.European Conference
+Neoclassical Transport Scalings for Stellarators in the Long-Mean-Free-Path Regime
+Focus Detector as an Aid for Focusing a Laser on a Target
+A High Field Magnet for a Hydrogen Arc Experiment
+INTOR - A European View
+Modelling of the Plasma at the Faraday Screen of an ICRH Antenna
+Runaway Electrons in a Tokamak: A Free-Electron Maser
+beta Scaling for the Onset of Neoclassical Tearing Modes at ASDEX Upgrade
+Free-Boundary Flow Equilibria for ASDEX and ASDEX_Upgrade: 13.European Conf.
+Messmethoden an heissen Plasmen
+A Kinetic Model for the Neutral Gas Between Plasma and Wall
+Bootstrap Current in Stellarator Geometries in the Long Mean Free Path Regime
+A New Crowbar System for the 2.7_MJ Bank Isar_1 at Garching
+A Bitter-Type Toroidal Field Magnet for ZEPHYR
+Photochemical Iodine Laser - A High Power Laser
+Ballooning-Instability Boundaries for the Circular Tokamak
+The Toroidal Magnetic Field Coils for the ASDEX-Tokamak
+A Saturable Absorber for the Iodine Laser
+Parametric Instabilites in Hot Plasmas near the Lower-Hybrid Frequency I
+H-Mode Power Threshold Database for ITER
+Nuclear Analysis of an ITER Inboard Blanket Module
+Laser Plasma Work at IPP Garching
+INTOR - A European View
+Lower-Hybrid Heating in the WEGA Tokamak
+Lower Hybrid Heating in a Mirror Plasma
+Tokamak Transport Based on the Braginskii Model
+Fluid Model for the Plasma Transport into a Divertor Tokamak Chamber: Internat.Conf.
+Edge Localized Modes (ELMs): Review Article
+Transport-Coefficients for an Anisotropic Plasma
+Helium Flow through Filters
+A Summary on H-Mode Studies in W7-AS
+Towards Higher SS In the Stellarators W7-AS
+A Radially Continuous Two-Chamber Model for the High-Recycling Divertor Edge Layer
+Maximum Attainable Toroidal Magnetic Fields for Tokamaks
+A Steerable ECRF Launcher for ITER
+A 3D Code for MHD Equilibrium and Stability
+Dimethyl sulfide in the Amazon rain forest
+Glaciers Permafrost and Lake Levels at the Tsengel Khairkhan Massif Mongolian Altai During the Late Pleistocene and Holocene
+Flash floods in the Sahara: a case study for the 28 January 2013 flood in Qena Egypt
+A high-entropy-wind r-process study based on nuclear-structure quantities from the new finite-range droplet model FRDM(2012)
+Overlap microtubules link sister k-fibres and balance the forces on bi-oriented kinetochores.
+What's behind Blast
+A new ImageJ plug-in ActogramJ for chronobiological analyses.
+A guide to light-sheet fluorescence microscopy for multiscale imaging.
+Protein power strokes
+PPF – A parallel particle filtering library
+Four KH domains of the C. elegans Bicaudal-C ortholog GLD-3 form a globular structural platform.
+Whither systems biology.
+Q & A Tony Hyman
+Multilayer mounting for long-term light sheet microscopy of zebrafish
+My life on a raft
+A high-throughput siRNA screen identifies genes that regulate mannose 6-phosphate receptor trafficking.
+Novel Cre-like site-specific recombinases for genome engineering
+Setting up roadblocks for kinesin-1: mechanism for the selective speed control of cargo carrying microtubules
+New beginnings: getting the kick I needed
+A genome-scale DNA repair RNAi screen identifies SPG48 as a novel gene associated with hereditary spastic paraplegia.
+Rapid 3D light-sheet microscopy with a tunable lens.
+OpenSPIM: an open access light sheet microscopy platform
+Guide to light-sheet microscopy for adventurous biologists.
+Cytoskeleton Dynamics: Mind the Gap!
+Optimized GeLC-MS/MS for bottom-up proteomics (Phd-thesis)
+eduSPIM: Light Sheet Microscopy in the Museum.
+Microtubule doublets are double-track railways for intraflagellar transport trains.
+Divide et Impera - the midbrain-hindbrain boundary and its organizer.
+New insights into the interplay between endocannabinoids and Hedgehog signaling using click chemistry
+A P-type ion pump at work
+The X-shooter GRB afterglow legacy sample (XS-GRB)
+A closer look at the deep radio sky: Multi-component radio sources at 3 GHz VLA-COSMOS
+ARGOS at the LBT - Binocular laser guided ground-layer adaptive optics
+AGN feedback in the Phoenix cluster
+Active galactic nuclei and their large-scale structure: an eROSITA mock catalogue
+Multi-wavelength torus–jet model for Sagittarius A
+A cross-cultural-study on the attitude towards personal odors
+Ornithology from the lakeshore
+A Research Unit for Human Ethology
+Do bar-headed geese train for high altitude flights?
+Plant Alkaloids as Pheromone Precursors in Danaid butterflies
+Rallenreiher - Ardeola ralloides
+Nachtreiher - Nycticorax nycticorax
+A key to the European blennioidea
+The worker's Bodyguard
+Migratory herbivorous waterfowl track satellite-derived green wave index
+Acoustic mirrors as sensory traps for bats
+A trade-off between thickness and length in the zebra finch sperm mid-piece
+What makes a marker a good marker?
+Picoides major (Linnaeus 1758) - Buntspecht
+Testing existing markers for studying genetic variability in Caucasian black grouse (Tetrao mlokosiewiczi) - A pilot study
+Auditory threshold change in singing cicadas
+Ornithology from the lakeshore
+Pheromone biology of the tobacco beetle (Lasioderma serricorne F. Anobiidae) with notes on the pheromone antagonism between 4S 6S 7S-and 4S 6S 7R-serricornin
+Mönchsgrasmücke (Sylvia atricapilla) an Futterplätzen
+Purpurreiher - Ardea purpurea
+Cricket-neuroethology and how it began
+Red data bird corncrake
+Yet more danger for coelacanths
+Threskiornis aethiopicus Latham 1790 - Heiliger Ibis
+Oceanodroma leucorhoa (Vieillot 1817) - Sturmschwalbe
+Validating two-dimensional leadership models on three-dimensionally structured fish schools
+Cricket phonotaxis: Females with forelegs fixed off the ground can track male song
+Challenge hypothesis 2.0: A fresh look at an established idea
+Ring-tailed lemurs: A species re-imagined
+Airplane tracking documents the fastest flight speeds recorded for bats
+Admixture between released and wild game birds: A changing genetic landscape in European mallards (Anas platyrhynchos)
+A new editor‐in‐chief for Ethology
+Ornithology from the lakeshore
+Onsager's Wien effect on a lattice
+Pseudospin Exchange in Rare Earth Alloys
+Quantum magnetism on the Cairo pentagonal lattice
+Debye-Huckel theory for spin ice at low temperature
+On the eigenvalue spectrum for time-delayed Floquet problems.
+The Neel order for a frustrated antiferromagnetic Heisenberg model: beyond linear spin-wave theory.
+A Bridge between Short-Range and Seasonal Forecasts
+Pre-K-edge structure on resonant X-ray scattering in LaMnO3.
+A three-sphere swimmer for flagellar synchronization
+Order-by-disorder in the XY pyrochlore antiferromagnet
+A large-energy-gap oxide topological insulator based on the superconductor BaBiO3
+The boundary integral method for magnetic billiards.
+A Wannier-function-based ab initio Hartree-Fock study of polyethylene.
+Haldane gap for the S=2 antiferromagnetic Heisenberg chain revisited.
+Quantum dimer model for the spin-1/2 kagome Z2 spin liquid
+Proposal for a spin-polarized solar battery.
+Partial Weyl law for billiards
+All Scale-Free Networks Are Sparse
+Spin-dependent terahertz oscillator based on hybrid graphene superlattices

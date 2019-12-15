@@ -471,12 +471,23 @@ Source: CRAN
 Version: 3.3
 Hash: d5a4afad9298f42aae77f6389713a066
 
+Package: tau
+Source: CRAN
+Version: 0.0-21
+Hash: 5bf020cced02d5c8d8ed983c50f1bf00
+
 Package: testthat
 Source: CRAN
 Version: 2.3.1
 Hash: 08a7645752835e2708c9bdf681409532
 Requires: R6, cli, crayon, digest, ellipsis, evaluate, magrittr,
     pkgload, praise, rlang, withr
+
+Package: textcat
+Source: CRAN
+Version: 1.0-6
+Hash: 05c62e38b773782782957262898c361e
+Requires: slam, tau
 
 Package: tibble
 Source: CRAN
