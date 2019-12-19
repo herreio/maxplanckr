@@ -2,7 +2,7 @@
 #'
 #' @export
 read_csv <- function(fp) {
-  csv <- read.csv(fp,
+  csv <- utils::read.csv(fp,
                   sep = ",",
                   quote = '"',
                   header = T,
@@ -23,7 +23,7 @@ read_data <- function(fp) {
 #'
 #' @export
 read_tsv <- function(fp) {
-    read.csv(fp,
+    utils::read.csv(fp,
         sep = "\t",
         quote = "",
         header = T,
