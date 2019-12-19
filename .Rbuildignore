@@ -2,6 +2,7 @@
 ^\.Rproj\.user$
 ^packrat/
 ^\.Rprofile$
+^\.Rprofile2$
 ^.*\.Rhistory$
 ^.*\.Rproj$
 ^.*\.log$
@@ -13,7 +14,7 @@
 ^R/_/
 ^inst/extdata/prepared/
 ^inst/extdata/collection/
-^inst/extdata/topmodels/
 ^inst/python/env/
 ^dev$
 \.gitignore
+^Makefile$
