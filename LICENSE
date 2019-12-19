@@ -1,0 +1,6 @@
+"MPDL supports Open Access Archiving by providing the institutional repository MPG.PuRe."
+https://www.mpdl.mpg.de/en/services/service-catalog/oa-support
+
+This package is still under devolpment. Detailed license description of the
+data sets is coming soon. Until then, please have a look at the data source:
+https://pure.mpg.de/ and its REST interface: https://pure.mpg.de/rest
