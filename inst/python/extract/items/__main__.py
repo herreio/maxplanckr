@@ -35,11 +35,11 @@ pub_table = [["Id", "Label", "Year", "Genre", "Lang",
               "Identifier", "IdentifierType", "Context"]]
 org_table = [["Id", "Item", "Label", "Role", "Identifier"]]
 aut_table = [["Id", "Item", "Label", "givenName", "Role",
-              "Identifier", "IdentiferType", "Organization"]]
+              "Identifier", "IdentifierType", "Organization"]]
 ext_table = [["Id", "Item", "Label", "givenName", "Role", "Organization"]]
-src_table = [["Id", "Item", "Label", "Genre", "Identifier", "IdentiferType"]]
+src_table = [["Id", "Item", "Label", "Genre", "Identifier", "IdentifierType"]]
 src_aut_table = [["Id", "Item", "Source", "Label", "givenName",
-                  "Role", "Identifier", "IdentiferType", "Organization"]]
+                  "Role", "Identifier", "IdentifierType", "Organization"]]
 src_ext_table = [["Id", "Item", "Source",
                   "Label", "givenName", "Role", "Organization"]]
 src_org_table = [["Id", "Item", "Source", "Label", "Role", "Identifier"]]
