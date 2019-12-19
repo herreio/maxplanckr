@@ -8,7 +8,7 @@
 plain_paths <- function(fp, fpattern = ".txt", full = T, ftype = T) {
   cat("collecting file names...\n")
   raw_src <- tm::DirSource(fp, pattern = fpattern)
-  raw_src$filelist <- grep(raw_src$filelist, pattern="raw.txt|.csv", inv=T, value=T)
+  raw_src$filelist <- grep(raw_src$filelist, pattern="raw.txt|.csv", invert=T, value=T)
   raw_src$length <- length(raw_src$filelist)
   if(full) { raw_src } else {
     fname <- sapply(strsplit(raw_src$filelist, "/"),
@@ -92,8 +92,8 @@ read_docterm <- function(x) {
     ",",
     escape_double = FALSE,
     col_types = readr::cols(
-      Doc = col_character(),
-      Term = col_character()),
+      Doc = readr::col_character(),
+      Term = readr::col_character()),
     trim_ws = TRUE
   )
 }
