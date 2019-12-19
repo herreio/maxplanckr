@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+echo ""
+echo "    check package build..."
+echo "    output is redirected to check.log..."
+echo ""
+if [ -f .Rprofile ]; then
+   mv .Rprofile .Rprofile2
+fi
+R -q -e 'devtools::check()'
+if [ -f .Rprofile2 ]; then
+   mv .Rprofile2 .Rprofile
+fi
+echo ""
+echo "    all done!"
+echo ""
