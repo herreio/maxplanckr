@@ -9,7 +9,10 @@ pc_titles <- maxplanckr::get_pc_titles()
 titles_eng <- maxplanckr::lines_to_corpus(file.path(pc_titles$all_lang, "eng.txt"))
 usethis::use_data(titles_eng, overwrite=T)
 titles_eng_raw <- maxplanckr::lines_to_corpus(file.path(pc_titles$all_lang, "eng_raw.txt"))
-usethis::use_data(titles_eng_raw, overwrite=T)
+
+fp <- file.path(system.file("extdata", package="maxplanckr"), "titles_eng_raw.rda")
+save(titles_eng_raw, fp)
+# usethis::use_data(titles_eng_raw, overwrite=T)
 
 # //////////////////////// #
 # /// INSTITUTE SCHEME /// #
