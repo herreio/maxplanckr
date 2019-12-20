@@ -3,7 +3,7 @@ Title: Bibliography of the Max Planck Society in R
 Version: 0.0.1
 Authors@R: person("Donatus", "Herre", email = "mai@herre.io", role = c("aut", "cre"))
 Description: This package provides publication data from MPG.PuRe.
-License: CC BY-SA 4.0 + file LICENSE
+License: file LICENSE
 Depends: 
     R (>= 3.5.0)
 Encoding: UTF-8
