@@ -106,6 +106,7 @@ get_pc_titles <- function() {
   dp_titles <- get_dp_titles()
   data.frame(
     "all_lang" = file.path(dp_titles, "all-lang"),
+    "all_lang_items" = file.path(dp_titles, "all-lang-item"),
     "mpi_lang" = file.path(dp_titles, "mpi-lang"),
     "pers_lang" = file.path(dp_titles, "pers-lang"),
     stringsAsFactors = F
