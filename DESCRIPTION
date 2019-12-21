@@ -14,7 +14,5 @@ Imports:
     reticulate,
     slam,
     tm
-Suggests:
-    textcat
 RoxygenNote: 7.0.2
 SystemRequirements: Python3, virtualenv (optional: Firefox, Geckodriver)
