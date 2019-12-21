@@ -6,6 +6,8 @@
 #'
 #' @usage data(pure)
 #'
+#' @importFrom dplyr tibble
+#'
 #' @format An object of class \code{"list"}
 #'
 #' @source \url{https://pure.mpg.de/rest}
@@ -16,6 +18,8 @@
 #' A data.frame (tibble) with more than 390.000 publications.
 #'
 #' @docType data
+#'
+#' @importFrom dplyr tibble
 #'
 #' @usage data(pure_items)
 #'
@@ -32,6 +36,8 @@
 #'
 #' @usage data(items)
 #'
+#' @importFrom dplyr tibble
+#'
 #' @format An object of class \code{"list"}
 #'
 #' @source \url{https://pure.mpg.de/rest}
@@ -42,6 +48,8 @@
 #' A named list with nodes (contexts, organizational units, categories, tags) and edges between them.
 #'
 #' @docType data
+#'
+#' @importFrom dplyr tibble
 #'
 #' @usage data(mpis)
 #'
@@ -56,6 +64,8 @@
 #'
 #' @docType data
 #'
+#' @importFrom dplyr tibble
+#'
 #' @usage data(sel)
 #'
 #' @format An object of class \code{"list"}
@@ -68,6 +78,8 @@
 #' A data.frame (tibble) with more than 200.000 publications.
 #'
 #' @docType data
+#'
+#' @importFrom dplyr tibble
 #'
 #' @usage data(sel_items)
 #'
@@ -84,6 +96,8 @@
 #'
 #' @usage data(sel_items_rel)
 #'
+#' @importFrom dplyr tibble
+#'
 #' @format An object of class \code{"list"}
 #'
 #' @source \url{https://pure.mpg.de/rest}
@@ -94,6 +108,8 @@
 #' A data.frame (tibble) with more than 200.000 publication sources (JOURNALS, COLLECTED_EDITIONS, ...).
 #'
 #' @docType data
+#'
+#' @importFrom dplyr tibble
 #'
 #' @usage data(sel_items_src)
 #'
@@ -107,6 +123,8 @@
 #' A named list with nodes (persons, externals, ous) and edges between them and publication’s sources.
 #'
 #' @docType data
+#'
+#' @importFrom dplyr tibble
 #'
 #' @usage data(sel_items_src_rel)
 #'
@@ -122,6 +140,8 @@
 #'
 #' @docType data
 #'
+#' @importFrom dplyr tibble
+#'
 #' @usage data(sel_stats)
 #'
 #' @format An object of class \code{"list"}
@@ -135,6 +155,8 @@
 #' publication title per document.
 #'
 #' @docType data
+#'
+#' @importFrom tm VCorpus
 #'
 #' @usage data(titles_eng)
 #'
@@ -150,6 +172,8 @@
 #'
 #' @docType data
 #'
+#' @importFrom tm VCorpus
+#'
 #' @usage data(titles_mpi)
 #'
 #' @format An object of class \code{"VCorpus"}; see \code{\link[tm]{VCorpus}}.
@@ -163,6 +187,8 @@
 #' from different scientists of Max Planck Institutes
 #'
 #' @docType data
+#'
+#' @importFrom tm VCorpus
 #'
 #' @usage data(titles_pers)
 #'
