@@ -2,17 +2,12 @@ devtools::load_all()
 
 pc_titles <- maxplanckr::get_pc_titles()
 
-# /////////////////////// #
-# /// LANGUAGE SCHEME /// #
-# /////////////////////// #
+# //////////////////// #
+# /// TITLE SCHEME /// #
+# //////////////////// #
 
-titles_eng <- maxplanckr::lines_to_corpus(file.path(pc_titles$all_lang, "eng.txt"))
+titles_eng <- maxplanckr::plain_to_corpus(pc_titles$all_lang_items)
 usethis::use_data(titles_eng, overwrite=T)
-titles_eng_raw <- maxplanckr::lines_to_corpus(file.path(pc_titles$all_lang, "eng_raw.txt"))
-
-fp <- file.path(system.file("extdata", package="maxplanckr"), "titles_eng_raw.rda")
-save(titles_eng_raw, fp)
-# usethis::use_data(titles_eng_raw, overwrite=T)
 
 # //////////////////////// #
 # /// INSTITUTE SCHEME /// #
