@@ -11,6 +11,7 @@ from ..utils.local import ld
 from ..utils.paths import EXTDATA_DIR, LANG_DIR, MAPPED_DIR, TITLES_DIR
 
 ALL_LANG = os.path.join(TITLES_DIR, 'all-lang/')
+ALL_LANG_ITEMS = os.path.join(TITLES_DIR, 'all-lang-item/')
 ALL_LANG_YEARS = os.path.join(TITLES_DIR, 'all-lang-year/')
 ALL_LANG_GENRE = os.path.join(TITLES_DIR, 'all-lang-genre/')
 ALL_LANG_YEARS_GENRE = os.path.join(TITLES_DIR, 'all-lang-year-genre/')
@@ -58,6 +59,29 @@ def titles_from_ctx_in_language(ctx_id='ctx_1542176', lang_id='eng',
     else:
         print(ctx_id, "has no " + lang_id + " publications!")
         return []
+
+def titles_from_ctx_in_language_by_item(ctx_id='ctx_1542176', lang_id='eng',
+                                preprocess=True):
+    total = ld.get_data(ctx_id)[0]
+    data_set = DataSet(data_id=ctx_id + "_released",
+                       raw=total.get_items_released())
+    lang_data = data_set.get_languages_data()
+    if lang_id in lang_data:
+        lang_records = lang_data[lang_id]
+        lang_data = DataSet(data_id=ctx_id + '_' + lang_id, raw=lang_records)
+        lang_titles = extract.titles_from_records(lang_data.records)
+        lang_idx = [extract.idx_from_item(r) for r in lang_data.records]
+        if preprocess:
+            lang_titles = [clean(title)
+                           for title in lang_titles]
+        item_title = {}
+        for i, j in enumerate(lang_idx):
+            if lang_titles[i]:  # only consider non empty title strings
+                item_title[j] = lang_titles[i]
+        return item_title
+    else:
+        print(ctx_id, "has no " + lang_id + " publications!")
+        return {}
 
 
 def titles_from_ctx_in_language_by_year(ctx_id='ctx_1542176', lang_id='eng',
@@ -299,6 +323,31 @@ def titles_from_lang(lang_id='eng', preprocess=False):
     print("finished extraction after %s sec!" %
           round(time.time() - start_time, 2))
 
+def titles_from_lang_by_item(lang_id='eng', preprocess=False):
+    if not os.path.exists(ALL_LANG_ITEMS):
+        os.makedirs(ALL_LANG_ITEMS)
+    print("start extraction!")
+    start_time = time.time()
+    for mpi in mpis:
+        print("")
+        print("processing", mpi, "...")
+        mpi_ctxs = ous_ctx[mpi]
+        for mpi_ctx in mpi_ctxs:
+            print("extracting", mpi_ctx, "...")
+            titles = titles_from_ctx_in_language_by_item(mpi_ctx,
+                                                 lang_id=lang_id,
+                                                 preprocess=preprocess)
+            for t in titles:
+                if titles[t]:
+                    out_prefix = ALL_LANG_ITEMS + t
+                    if not preprocess:
+                        out_prefix += "_raw"
+                    out_file = out_prefix + '.txt'
+                    f = open(out_file, 'w', encoding="utf8")
+                    f.write(titles[t] + "\n")
+                    f.close()
+    print("finished extraction after %s sec!" %
+          round(time.time() - start_time, 2))
 
 def titles_from_lang_in_genre(genre='ARTICLE', lang_id='eng', preprocess=False):
     if not os.path.exists(ALL_LANG_GENRE):
