@@ -16,6 +16,9 @@ print("console output is redirected to retrieve.log ...")
 stdout = sys.stdout
 sterr = sys.stderr
 
+if not os.path.exists(LOG_DIR):
+    os.makedirs(LOG_DIR)
+
 log = open(os.path.join(LOG_DIR, "retrieve.log"), "w+")
 sys.stdout = log
 sys.stderr = log
