@@ -614,19 +614,18 @@ def titles_from_persons(lang_id='eng', preprocess=False):
                     mpi_ctx, lang_id=lang_id, preprocess=preprocess)
             for pers in pers_titles:
                 titles = pers_titles[pers]
-                if len(titles) > 1:
-                    if pers in written:
-                        out_file = written[pers]
-                        with open(out_file, 'a', encoding="UTF-8") as f:
-                            f.write("\n".join(titles) + "\n")
-                    else:
-                        out_prefix = PERS_LANG + pers + "_" + lang_id
-                        if not preprocess:
-                            out_prefix += '_raw'
-                        out_file = out_prefix + '.txt'
-                        with open(out_file, 'w', encoding="UTF-8") as f:
-                            f.write("\n".join(titles) + "\n")
-                        written[pers] = out_file
+                if pers in written:
+                    out_file = written[pers]
+                    with open(out_file, 'a', encoding="UTF-8") as f:
+                        f.write("\n".join(titles) + "\n")
+                else:
+                    out_prefix = PERS_LANG + pers + "_" + lang_id
+                    if not preprocess:
+                        out_prefix += '_raw'
+                    out_file = out_prefix + '.txt'
+                    with open(out_file, 'w', encoding="UTF-8") as f:
+                        f.write("\n".join(titles) + "\n")
+                    written[pers] = out_file
     print("finished extraction after %s sec!" %
           round(time.time() - start_time, 2))
 
