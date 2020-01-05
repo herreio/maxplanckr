@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+echo ""
+echo "    create package data..."
+echo ""
+Rscript count.R
+Rscript datasel.R
+Rscript graph.R
+Rscript internal.R
+Rscript tables.R
+Rscript titles.R
+echo ""
+echo "    all done!"
+echo ""
