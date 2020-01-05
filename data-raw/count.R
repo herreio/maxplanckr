@@ -1,3 +1,5 @@
+devtools::load_all()
+
 name_from_path <- function(path) {
   gsub("\\.[a-zA-Z0-9]+$", "", gsub("^.*\\/", "", path))
 }
