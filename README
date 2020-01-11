@@ -1,3 +1,19 @@
 # ////////////////// #
 # /// maxplanckr /// #
 # ////////////////// #
+
+# SET UP
+
+# ... by cloning the repository
+$ git clone https://github.com/herreio/maxplanckr.git
+$ cd maxplanckr
+
+
+# REQUIREMENTS
+
+- R, Python3, virtualenv (optional: Firefox, Geckodriver)
+
+
+# INSTALLATION
+
+$ make deps
