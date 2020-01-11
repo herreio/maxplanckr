@@ -9,9 +9,12 @@ pc_graph <- maxplanckr::get_pc_graph()
 sel_ctx <- maxplanckr::read_data(pc_graph$sel_nodes_ctx)
 sel_ous <- maxplanckr::read_data(pc_graph$sel_nodes_ous)
 sel_ous_ctx <- maxplanckr::read_data(pc_graph$sel_edges_ous_ctx)
+sel_ous_ous <- maxplanckr::read_data(pc_graph$sel_edges_ous_ous)
+sel_ous_tree <- maxplanckr::read_data(pc_graph$sel_nodes_ous_tree)
+sel_ous_kids <- maxplanckr::read_data(pc_graph$sel_nodes_ous_kids)
 
-sel <- setNames(list(sel_ctx, sel_ous, sel_ous_ctx),
-                   c("ctx", "ous", "ous_ctx"))
+sel <- setNames(list(sel_ctx, sel_ous, sel_ous_ctx, sel_ous_ous, sel_ous_tree, sel_ous_kids),
+                   c("ctx", "ous", "ous_ctx", "ous_ous", "ous_tree", "ous_kids"))
 usethis::use_data(sel, overwrite=T)
 
 # ////////////// #
