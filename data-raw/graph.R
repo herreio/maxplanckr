@@ -9,10 +9,11 @@ pc_graph <- maxplanckr::get_pc_graph()
 pure_ctx <- maxplanckr::read_data(pc_graph$pure_nodes_ctx)
 pure_ous <- maxplanckr::read_data(pc_graph$pure_nodes_ous)
 pure_ctx_ous <- maxplanckr::read_data(pc_graph$pure_edges_ctx_ous)
+pure_ous_ous <- maxplanckr::read_data(pc_graph$pure_edges_ous_ous)
 
 pure <- setNames(
-  list(pure_ctx, pure_ous, pure_ctx_ous),
-  c("ctx", "ous", "ctx_ous")
+  list(pure_ctx, pure_ous, pure_ctx_ous, pure_ous_ous),
+  c("ctx", "ous", "ctx_ous", "ous_ous")
 )
 
 usethis::use_data(pure, overwrite=T)
