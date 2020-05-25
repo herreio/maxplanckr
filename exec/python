@@ -5,7 +5,7 @@ echo ""
 WD=$(dirname "$0")
 PY_DIR=$WD"/../inst/python"
 cd $PY_DIR
-virtualenv -p python3 --no-site-packages env
+virtualenv -p python3 env
 source env/bin/activate
 echo ""
 echo "    install requirements..."
